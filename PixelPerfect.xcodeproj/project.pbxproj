@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23EE177C24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */; };
+		23EE177D24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */; };
+		23EE178024F2792E00D182D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EE176B24F2792D00D182D8 /* Assets.xcassets */; };
+		23EE178124F2792E00D182D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EE176B24F2792D00D182D8 /* Assets.xcassets */; };
+		23EE178C24F27A5500D182D8 /* WateringPlantDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE178B24F27A5500D182D8 /* WateringPlantDetails.swift */; };
+		23EE178E24F27A9800D182D8 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE178D24F27A9800D182D8 /* Plant.swift */; };
+		23EE179324F2A95D00D182D8 /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179224F2A95D00D182D8 /* ParallaxHeader.swift */; };
+		23EE179524F2AB1200D182D8 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179424F2AB1200D182D8 /* InfoView.swift */; };
+		23EE179824F2ABB000D182D8 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179724F2ABB000D182D8 /* Color+Extension.swift */; };
+		23EE179A24F2AE3800D182D8 /* WateringPlantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179924F2AE3800D182D8 /* WateringPlantList.swift */; };
+		23EE179C24F2AE6800D182D8 /* WateringPlantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179B24F2AE6800D182D8 /* WateringPlantCell.swift */; };
+		23EE179E24F2B2C900D182D8 /* WateringPlantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179D24F2B2C900D182D8 /* WateringPlantApp.swift */; };
+		23EE17A024F2B8F500D182D8 /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179F24F2B8F500D182D8 /* SquareButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelPerfectApp.swift; sourceTree = "<group>"; };
+		23EE176B24F2792D00D182D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23EE177024F2792E00D182D8 /* PixelPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EE177324F2792E00D182D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EE177824F2792E00D182D8 /* PixelPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EE177A24F2792E00D182D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EE177B24F2792E00D182D8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		23EE178B24F27A5500D182D8 /* WateringPlantDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringPlantDetails.swift; sourceTree = "<group>"; };
+		23EE178D24F27A9800D182D8 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		23EE179224F2A95D00D182D8 /* ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
+		23EE179424F2AB1200D182D8 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		23EE179724F2ABB000D182D8 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		23EE179924F2AE3800D182D8 /* WateringPlantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringPlantList.swift; sourceTree = "<group>"; };
+		23EE179B24F2AE6800D182D8 /* WateringPlantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringPlantCell.swift; sourceTree = "<group>"; };
+		23EE179D24F2B2C900D182D8 /* WateringPlantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringPlantApp.swift; sourceTree = "<group>"; };
+		23EE179F24F2B8F500D182D8 /* SquareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23EE176D24F2792E00D182D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EE177524F2792E00D182D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23EE176324F2792D00D182D8 = {
+			isa = PBXGroup;
+			children = (
+				23EE176824F2792D00D182D8 /* Shared */,
+				23EE177224F2792E00D182D8 /* iOS */,
+				23EE177924F2792E00D182D8 /* macOS */,
+				23EE177124F2792E00D182D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23EE176824F2792D00D182D8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				23EE179624F2ABA200D182D8 /* Extensions */,
+				23EE179124F2A94C00D182D8 /* Common Views */,
+				23EE178A24F27A1400D182D8 /* Watering Plant App */,
+				23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */,
+				23EE176B24F2792D00D182D8 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		23EE177124F2792E00D182D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23EE177024F2792E00D182D8 /* PixelPerfect.app */,
+				23EE177824F2792E00D182D8 /* PixelPerfect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23EE177224F2792E00D182D8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				23EE177324F2792E00D182D8 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		23EE177924F2792E00D182D8 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				23EE177A24F2792E00D182D8 /* Info.plist */,
+				23EE177B24F2792E00D182D8 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		23EE178A24F27A1400D182D8 /* Watering Plant App */ = {
+			isa = PBXGroup;
+			children = (
+				23EE178B24F27A5500D182D8 /* WateringPlantDetails.swift */,
+				23EE179F24F2B8F500D182D8 /* SquareButton.swift */,
+				23EE179D24F2B2C900D182D8 /* WateringPlantApp.swift */,
+				23EE179424F2AB1200D182D8 /* InfoView.swift */,
+				23EE179024F27AB700D182D8 /* Model */,
+				23EE179924F2AE3800D182D8 /* WateringPlantList.swift */,
+				23EE179B24F2AE6800D182D8 /* WateringPlantCell.swift */,
+			);
+			path = "Watering Plant App";
+			sourceTree = "<group>";
+		};
+		23EE179024F27AB700D182D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23EE178D24F27A9800D182D8 /* Plant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23EE179124F2A94C00D182D8 /* Common Views */ = {
+			isa = PBXGroup;
+			children = (
+				23EE179224F2A95D00D182D8 /* ParallaxHeader.swift */,
+			);
+			path = "Common Views";
+			sourceTree = "<group>";
+		};
+		23EE179624F2ABA200D182D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				23EE179724F2ABB000D182D8 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23EE176F24F2792E00D182D8 /* PixelPerfect (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23EE178424F2792E00D182D8 /* Build configuration list for PBXNativeTarget "PixelPerfect (iOS)" */;
+			buildPhases = (
+				23EE176C24F2792E00D182D8 /* Sources */,
+				23EE176D24F2792E00D182D8 /* Frameworks */,
+				23EE176E24F2792E00D182D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PixelPerfect (iOS)";
+			productName = "PixelPerfect (iOS)";
+			productReference = 23EE177024F2792E00D182D8 /* PixelPerfect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23EE177724F2792E00D182D8 /* PixelPerfect (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23EE178724F2792E00D182D8 /* Build configuration list for PBXNativeTarget "PixelPerfect (macOS)" */;
+			buildPhases = (
+				23EE177424F2792E00D182D8 /* Sources */,
+				23EE177524F2792E00D182D8 /* Frameworks */,
+				23EE177624F2792E00D182D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PixelPerfect (macOS)";
+			productName = "PixelPerfect (macOS)";
+			productReference = 23EE177824F2792E00D182D8 /* PixelPerfect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23EE176424F2792D00D182D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					23EE176F24F2792E00D182D8 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					23EE177724F2792E00D182D8 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 23EE176724F2792D00D182D8 /* Build configuration list for PBXProject "PixelPerfect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23EE176324F2792D00D182D8;
+			productRefGroup = 23EE177124F2792E00D182D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23EE176F24F2792E00D182D8 /* PixelPerfect (iOS) */,
+				23EE177724F2792E00D182D8 /* PixelPerfect (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23EE176E24F2792E00D182D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EE178024F2792E00D182D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EE177624F2792E00D182D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EE178124F2792E00D182D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23EE176C24F2792E00D182D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EE17A024F2B8F500D182D8 /* SquareButton.swift in Sources */,
+				23EE179824F2ABB000D182D8 /* Color+Extension.swift in Sources */,
+				23EE179E24F2B2C900D182D8 /* WateringPlantApp.swift in Sources */,
+				23EE179C24F2AE6800D182D8 /* WateringPlantCell.swift in Sources */,
+				23EE178E24F27A9800D182D8 /* Plant.swift in Sources */,
+				23EE177C24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */,
+				23EE178C24F27A5500D182D8 /* WateringPlantDetails.swift in Sources */,
+				23EE179524F2AB1200D182D8 /* InfoView.swift in Sources */,
+				23EE179A24F2AE3800D182D8 /* WateringPlantList.swift in Sources */,
+				23EE179324F2A95D00D182D8 /* ParallaxHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EE177424F2792E00D182D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EE177D24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23EE178224F2792E00D182D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23EE178324F2792E00D182D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		23EE178524F2792E00D182D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35X2XDKBD7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.thanel.PixelPerfect;
+				PRODUCT_NAME = PixelPerfect;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23EE178624F2792E00D182D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35X2XDKBD7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.thanel.PixelPerfect;
+				PRODUCT_NAME = PixelPerfect;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23EE178824F2792E00D182D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 35X2XDKBD7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.thanel.PixelPerfect;
+				PRODUCT_NAME = PixelPerfect;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		23EE178924F2792E00D182D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 35X2XDKBD7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.thanel.PixelPerfect;
+				PRODUCT_NAME = PixelPerfect;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23EE176724F2792D00D182D8 /* Build configuration list for PBXProject "PixelPerfect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EE178224F2792E00D182D8 /* Debug */,
+				23EE178324F2792E00D182D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23EE178424F2792E00D182D8 /* Build configuration list for PBXNativeTarget "PixelPerfect (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EE178524F2792E00D182D8 /* Debug */,
+				23EE178624F2792E00D182D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23EE178724F2792E00D182D8 /* Build configuration list for PBXNativeTarget "PixelPerfect (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EE178824F2792E00D182D8 /* Debug */,
+				23EE178924F2792E00D182D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23EE176424F2792D00D182D8 /* Project object */;
+}
