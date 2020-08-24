@@ -11,7 +11,7 @@ import SwiftUI
 struct PixelPerfectApp: App {
     var body: some Scene {
         WindowGroup {
-            WateringPlantApp()
+            AppPickerView()
         }
     }
 }

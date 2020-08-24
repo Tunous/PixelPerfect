@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23A6656124F3F6F100EA77EE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6656024F3F6F100EA77EE /* AppView.swift */; };
+		23A6656224F3F6F100EA77EE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6656024F3F6F100EA77EE /* AppView.swift */; };
+		23A6656424F3F96600EA77EE /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6656324F3F96600EA77EE /* AppInfo.swift */; };
+		23A6656524F3F96600EA77EE /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6656324F3F96600EA77EE /* AppInfo.swift */; };
+		23A6656724F3F98B00EA77EE /* AppPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6656624F3F98B00EA77EE /* AppPickerView.swift */; };
+		23A6656824F3F98B00EA77EE /* AppPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6656624F3F98B00EA77EE /* AppPickerView.swift */; };
+		23BEDED424F3CE200043FC8E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDED324F3CE200043FC8E /* HomeView.swift */; };
+		23BEDED624F3CE340043FC8E /* ScrollingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDED524F3CE340043FC8E /* ScrollingSection.swift */; };
+		23BEDED824F3CE400043FC8E /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDED724F3CE400043FC8E /* SectionHeader.swift */; };
+		23BEDEDA24F3CE4C0043FC8E /* CurrentlyReadingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDED924F3CE4C0043FC8E /* CurrentlyReadingCard.swift */; };
+		23BEDEDC24F3CE580043FC8E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEDB24F3CE580043FC8E /* Book.swift */; };
+		23BEDEDE24F3CE5F0043FC8E /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEDD24F3CE5F0043FC8E /* CoverImage.swift */; };
+		23BEDEE024F3CE690043FC8E /* View+Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEDF24F3CE690043FC8E /* View+Card.swift */; };
+		23BEDEE224F3CE940043FC8E /* UpdateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEE124F3CE940043FC8E /* UpdateCard.swift */; };
+		23BEDEE424F3CEA30043FC8E /* GoodreadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEE324F3CEA30043FC8E /* GoodreadsApp.swift */; };
+		23BEDEE624F3CEB90043FC8E /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEE524F3CEB90043FC8E /* DiscoverView.swift */; };
+		23BEDEE824F3CEBF0043FC8E /* MyBooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEE724F3CEBF0043FC8E /* MyBooksView.swift */; };
+		23BEDEEA24F3CEC50043FC8E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEE924F3CEC50043FC8E /* ProfileView.swift */; };
+		23BEDEEC24F3CED50043FC8E /* BookRecommendationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEEB24F3CED50043FC8E /* BookRecommendationView.swift */; };
+		23BEDEEE24F3CEDD0043FC8E /* GenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEED24F3CEDD0043FC8E /* GenreView.swift */; };
+		23BEDEF024F3CEEA0043FC8E /* NewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEEF24F3CEEA0043FC8E /* NewsCard.swift */; };
+		23BEDEF224F3CEF20043FC8E /* ListPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEF124F3CEF20043FC8E /* ListPreviewView.swift */; };
 		23EE177C24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */; };
 		23EE177D24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */; };
 		23EE178024F2792E00D182D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EE176B24F2792D00D182D8 /* Assets.xcassets */; };
@@ -23,6 +45,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23A6656024F3F6F100EA77EE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		23A6656324F3F96600EA77EE /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		23A6656624F3F98B00EA77EE /* AppPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPickerView.swift; sourceTree = "<group>"; };
+		23BEDED324F3CE200043FC8E /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		23BEDED524F3CE340043FC8E /* ScrollingSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingSection.swift; sourceTree = "<group>"; };
+		23BEDED724F3CE400043FC8E /* SectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		23BEDED924F3CE4C0043FC8E /* CurrentlyReadingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentlyReadingCard.swift; sourceTree = "<group>"; };
+		23BEDEDB24F3CE580043FC8E /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		23BEDEDD24F3CE5F0043FC8E /* CoverImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
+		23BEDEDF24F3CE690043FC8E /* View+Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Card.swift"; sourceTree = "<group>"; };
+		23BEDEE124F3CE940043FC8E /* UpdateCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateCard.swift; sourceTree = "<group>"; };
+		23BEDEE324F3CEA30043FC8E /* GoodreadsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodreadsApp.swift; sourceTree = "<group>"; };
+		23BEDEE524F3CEB90043FC8E /* DiscoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		23BEDEE724F3CEBF0043FC8E /* MyBooksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBooksView.swift; sourceTree = "<group>"; };
+		23BEDEE924F3CEC50043FC8E /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		23BEDEEB24F3CED50043FC8E /* BookRecommendationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookRecommendationView.swift; sourceTree = "<group>"; };
+		23BEDEED24F3CEDD0043FC8E /* GenreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreView.swift; sourceTree = "<group>"; };
+		23BEDEEF24F3CEEA0043FC8E /* NewsCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCard.swift; sourceTree = "<group>"; };
+		23BEDEF124F3CEF20043FC8E /* ListPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPreviewView.swift; sourceTree = "<group>"; };
 		23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelPerfectApp.swift; sourceTree = "<group>"; };
 		23EE176B24F2792D00D182D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23EE177024F2792E00D182D8 /* PixelPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +100,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23BEDED124F3CDD00043FC8E /* Goodreads App */ = {
+			isa = PBXGroup;
+			children = (
+				23BEDEE324F3CEA30043FC8E /* GoodreadsApp.swift */,
+				23BEDEE524F3CEB90043FC8E /* DiscoverView.swift */,
+				23BEDEE724F3CEBF0043FC8E /* MyBooksView.swift */,
+				23BEDEE924F3CEC50043FC8E /* ProfileView.swift */,
+				23BEDEEB24F3CED50043FC8E /* BookRecommendationView.swift */,
+				23BEDEED24F3CEDD0043FC8E /* GenreView.swift */,
+				23BEDEEF24F3CEEA0043FC8E /* NewsCard.swift */,
+				23BEDEE124F3CE940043FC8E /* UpdateCard.swift */,
+				23BEDEF124F3CEF20043FC8E /* ListPreviewView.swift */,
+				23BEDEDF24F3CE690043FC8E /* View+Card.swift */,
+				23BEDEDD24F3CE5F0043FC8E /* CoverImage.swift */,
+				23BEDEDB24F3CE580043FC8E /* Book.swift */,
+				23BEDED924F3CE4C0043FC8E /* CurrentlyReadingCard.swift */,
+				23BEDED724F3CE400043FC8E /* SectionHeader.swift */,
+				23BEDED524F3CE340043FC8E /* ScrollingSection.swift */,
+				23BEDED324F3CE200043FC8E /* HomeView.swift */,
+			);
+			path = "Goodreads App";
+			sourceTree = "<group>";
+		};
+		23BEDED224F3CDDE0043FC8E /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				23BEDED124F3CDD00043FC8E /* Goodreads App */,
+				23EE178A24F27A1400D182D8 /* Watering Plant App */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
 		23EE176324F2792D00D182D8 = {
 			isa = PBXGroup;
 			children = (
@@ -72,10 +145,13 @@
 		23EE176824F2792D00D182D8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				23BEDED224F3CDDE0043FC8E /* Apps */,
 				23EE179624F2ABA200D182D8 /* Extensions */,
 				23EE179124F2A94C00D182D8 /* Common Views */,
-				23EE178A24F27A1400D182D8 /* Watering Plant App */,
 				23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */,
+				23A6656624F3F98B00EA77EE /* AppPickerView.swift */,
+				23A6656324F3F96600EA77EE /* AppInfo.swift */,
+				23A6656024F3F6F100EA77EE /* AppView.swift */,
 				23EE176B24F2792D00D182D8 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -242,16 +318,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23BEDEE224F3CE940043FC8E /* UpdateCard.swift in Sources */,
 				23EE17A024F2B8F500D182D8 /* SquareButton.swift in Sources */,
+				23BEDEDA24F3CE4C0043FC8E /* CurrentlyReadingCard.swift in Sources */,
 				23EE179824F2ABB000D182D8 /* Color+Extension.swift in Sources */,
 				23EE179E24F2B2C900D182D8 /* WateringPlantApp.swift in Sources */,
 				23EE179C24F2AE6800D182D8 /* WateringPlantCell.swift in Sources */,
+				23BEDEEE24F3CEDD0043FC8E /* GenreView.swift in Sources */,
+				23BEDEE024F3CE690043FC8E /* View+Card.swift in Sources */,
+				23BEDEE624F3CEB90043FC8E /* DiscoverView.swift in Sources */,
+				23BEDEEC24F3CED50043FC8E /* BookRecommendationView.swift in Sources */,
+				23A6656724F3F98B00EA77EE /* AppPickerView.swift in Sources */,
 				23EE178E24F27A9800D182D8 /* Plant.swift in Sources */,
+				23BEDEE424F3CEA30043FC8E /* GoodreadsApp.swift in Sources */,
+				23BEDED424F3CE200043FC8E /* HomeView.swift in Sources */,
+				23A6656424F3F96600EA77EE /* AppInfo.swift in Sources */,
 				23EE177C24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */,
+				23BEDEF024F3CEEA0043FC8E /* NewsCard.swift in Sources */,
+				23BEDEDC24F3CE580043FC8E /* Book.swift in Sources */,
 				23EE178C24F27A5500D182D8 /* WateringPlantDetails.swift in Sources */,
 				23EE179524F2AB1200D182D8 /* InfoView.swift in Sources */,
 				23EE179A24F2AE3800D182D8 /* WateringPlantList.swift in Sources */,
 				23EE179324F2A95D00D182D8 /* ParallaxHeader.swift in Sources */,
+				23A6656124F3F6F100EA77EE /* AppView.swift in Sources */,
+				23BEDEDE24F3CE5F0043FC8E /* CoverImage.swift in Sources */,
+				23BEDED624F3CE340043FC8E /* ScrollingSection.swift in Sources */,
+				23BEDEE824F3CEBF0043FC8E /* MyBooksView.swift in Sources */,
+				23BEDEF224F3CEF20043FC8E /* ListPreviewView.swift in Sources */,
+				23BEDEEA24F3CEC50043FC8E /* ProfileView.swift in Sources */,
+				23BEDED824F3CE400043FC8E /* SectionHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +354,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A6656824F3F98B00EA77EE /* AppPickerView.swift in Sources */,
+				23A6656224F3F6F100EA77EE /* AppView.swift in Sources */,
 				23EE177D24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */,
+				23A6656524F3F96600EA77EE /* AppInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
