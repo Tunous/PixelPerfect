@@ -10,7 +10,7 @@ import SwiftUI
 struct SquareButton: View {
     var body: some View {
         Image(systemName: "plus")
-            .frame(width: 32, height: 32)
+            .frame(minWidth: 32, minHeight: 32)
             .font(.title)
             .padding(8)
             .foregroundColor(.white)

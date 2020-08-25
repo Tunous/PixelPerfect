@@ -15,6 +15,7 @@ struct WateringPlantList: View {
                     WateringPlantCell()
                     WateringPlantCell()
                     WateringPlantCell()
+                        .padding(.bottom, 64)
                 }
 
                 Button(action: {}) {
@@ -23,7 +24,7 @@ struct WateringPlantList: View {
                         .padding()
                         .background(
                             Circle()
-                                .fill(Color.white)
+                                .fill(Color(.tertiarySystemBackground))
                                 .shadow(radius: 6)
                         )
                         .font(Font.body.weight(.bold))
