@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230B39D324F564DD00EEF7FA /* ShakeGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230B39D224F564DD00EEF7FA /* ShakeGesture.swift */; };
+		230B39D424F564DD00EEF7FA /* ShakeGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230B39D224F564DD00EEF7FA /* ShakeGesture.swift */; };
+		235ACE0624F5652500AE7387 /* UIWindow+ShakeGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235ACE0524F5652500AE7387 /* UIWindow+ShakeGesture.swift */; };
 		23A6656124F3F6F100EA77EE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6656024F3F6F100EA77EE /* AppView.swift */; };
 		23A6656224F3F6F100EA77EE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6656024F3F6F100EA77EE /* AppView.swift */; };
 		23A6656424F3F96600EA77EE /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6656324F3F96600EA77EE /* AppInfo.swift */; };
@@ -45,6 +48,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		230B39D224F564DD00EEF7FA /* ShakeGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeGesture.swift; sourceTree = "<group>"; };
+		235ACE0524F5652500AE7387 /* UIWindow+ShakeGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+ShakeGesture.swift"; sourceTree = "<group>"; };
 		23A6656024F3F6F100EA77EE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		23A6656324F3F96600EA77EE /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
 		23A6656624F3F98B00EA77EE /* AppPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPickerView.swift; sourceTree = "<group>"; };
@@ -217,6 +222,8 @@
 			isa = PBXGroup;
 			children = (
 				23EE179724F2ABB000D182D8 /* Color+Extension.swift */,
+				230B39D224F564DD00EEF7FA /* ShakeGesture.swift */,
+				235ACE0524F5652500AE7387 /* UIWindow+ShakeGesture.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -344,6 +351,8 @@
 				23BEDEDE24F3CE5F0043FC8E /* CoverImage.swift in Sources */,
 				23BEDED624F3CE340043FC8E /* ScrollingSection.swift in Sources */,
 				23BEDEE824F3CEBF0043FC8E /* MyBooksView.swift in Sources */,
+				235ACE0624F5652500AE7387 /* UIWindow+ShakeGesture.swift in Sources */,
+				230B39D324F564DD00EEF7FA /* ShakeGesture.swift in Sources */,
 				23BEDEF224F3CEF20043FC8E /* ListPreviewView.swift in Sources */,
 				23BEDEEA24F3CEC50043FC8E /* ProfileView.swift in Sources */,
 				23BEDED824F3CE400043FC8E /* SectionHeader.swift in Sources */,
@@ -355,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A6656824F3F98B00EA77EE /* AppPickerView.swift in Sources */,
+				230B39D424F564DD00EEF7FA /* ShakeGesture.swift in Sources */,
 				23A6656224F3F6F100EA77EE /* AppView.swift in Sources */,
 				23EE177D24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */,
 				23A6656524F3F96600EA77EE /* AppInfo.swift in Sources */,

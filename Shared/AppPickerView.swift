@@ -11,16 +11,27 @@ struct AppPickerView: View {
 
     var body: some View {
         NavigationView {
-            List {
-                AppView(appInfo: .wateringPlantApp) {
-                    WateringPlantApp()
+            ZStack(alignment: .bottom) {
+                ScrollView {
+                    AppView(appInfo: .wateringPlantApp) {
+                        WateringPlantApp()
+                    }
+                    AppView(appInfo: .goodreadsApp) {
+                        GoodreadsApp()
+                    }
                 }
-                AppView(appInfo: .goodreadsApp) {
-                    GoodreadsApp()
-                }
+
+                Label("Once in app shake to return to this list", systemImage: "questionmark.circle")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
+                    .padding(8)
+                    .background(Color(.systemBackground))
+                    .cornerRadius(16)
+
             }
             .navigationTitle("PixelPerfect - SwiftUI")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

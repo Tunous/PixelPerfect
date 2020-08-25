@@ -30,7 +30,6 @@ struct WateringPlantApp: View {
                     Label("Profile", systemImage: "person")
                 }
         }
-        .accentColor(Color(#colorLiteral(red: 0.0862745098, green: 0.8117647059, blue: 0.3960784314, alpha: 1)))
     }
 }
 

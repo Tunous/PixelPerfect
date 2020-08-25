@@ -30,7 +30,6 @@ struct GoodreadsApp: View {
                 Text("Profile")
             }
         }
-        .accentColor(Color(#colorLiteral(red: 0.5294117647, green: 0.4549019608, blue: 0.3529411765, alpha: 1)))
     }
 }
 
