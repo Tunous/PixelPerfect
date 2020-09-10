@@ -29,6 +29,7 @@ struct DaySelectionView: View {
                             .alignmentGuide(HorizontalAlignment.selectionIndicator, computeValue: { dimension in
                                 dimension[HorizontalAlignment.center]
                             })
+                            .foregroundColor(.black)
                     } else {
                         Button(action: { withAnimation { selectedPage = index } }) {
                             DayWeatherIndicatorView(icon: weather.icon, text: weather.day)
@@ -55,7 +56,12 @@ struct DaySelectionView_Previews: PreviewProvider {
         }
     }
     static var previews: some View {
-        Wrapper()
-            .previewLayout(.sizeThatFits)
+        Group {
+            Wrapper()
+                .previewLayout(.sizeThatFits)
+            Wrapper()
+                .previewLayout(.sizeThatFits)
+                .preferredColorScheme(.dark)
+        }
     }
 }
