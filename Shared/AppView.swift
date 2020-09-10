@@ -73,7 +73,7 @@ struct AppView<Content>: View where Content: View {
 
 struct AppView_Previews: PreviewProvider {
     static var previews: some View {
-        AppView(appInfo: .wateringPlantApp) {
+        AppView(appInfo: .simpleWeatherApp) {
             Text("App")
         }
     }

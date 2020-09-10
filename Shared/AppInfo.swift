@@ -38,4 +38,12 @@ struct AppInfo {
         url: "https://medium.muz.li/goodreads-app-ux-case-study-2e63214fc005",
         accentColor: #colorLiteral(red: 0.5294117647, green: 0.4549019608, blue: 0.3529411765, alpha: 1)
     )
+
+    static let simpleWeatherApp = AppInfo(
+        name: "Simple Weather App Prototype",
+        image: "Simple Weather App Preview",
+        author: "Minh Pham",
+        url: "https://dribbble.com/shots/14153317-simple-weather-app-prototype",
+        accentColor: .systemYellow
+    )
 }

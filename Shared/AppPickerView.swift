@@ -13,12 +13,16 @@ struct AppPickerView: View {
         NavigationView {
             ZStack(alignment: .bottom) {
                 ScrollView {
+                    AppView(appInfo: .simpleWeatherApp) {
+                        SimpleWeatherApp()
+                    }
                     AppView(appInfo: .wateringPlantApp) {
                         WateringPlantApp()
                     }
                     AppView(appInfo: .goodreadsApp) {
                         GoodreadsApp()
                     }
+                    Spacer(minLength: 40)
                 }
 
                 Label("Once in app shake to return to this list", systemImage: "questionmark.circle")
