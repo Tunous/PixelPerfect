@@ -20,44 +20,42 @@ struct AppView<Content>: View where Content: View {
     }
 
     var body: some View {
-        VStack {
-            VStack(alignment: .leading, spacing: 0) {
-                ZStack(alignment: .bottomTrailing) {
-                    Image(appInfo.id)
-                        .resizable()
-                        .scaledToFill()
-                        .frame(height: 160)
-                        .clipped()
+        VStack(alignment: .leading, spacing: 0) {
+            ZStack(alignment: .bottomTrailing) {
+                Image(appInfo.id)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: 160)
+                    .clipped()
 
-                    Link(destination: appInfo.url) {
-                        Image(systemName: "safari")
-                            .imageScale(.large)
-                            .padding(8)
-                            .background(appInfo.accentColor)
-                            .foregroundColor(.white)
-                            .cornerRadius(8)
-                            .padding(8)
-                    }
+                Link(destination: appInfo.url) {
+                    Image(systemName: "safari")
+                        .imageScale(.large)
+                        .padding(8)
+                        .background(appInfo.accentColor)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                        .padding(8)
                 }
-
-                Button(action: { showApp = true }) {
-                    HStack {
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(appInfo.name)
-                                .font(.body)
-                            (Text("Design by ").foregroundColor(.secondary) + Text(appInfo.author))
-                                .font(.footnote)
-                        }
-                        Spacer()
-                        Image(systemName: "chevron.right")
-                            .font(Font.body.bold())
-                            .foregroundColor(.secondary)
-                    }
-                    .padding()
-                    .background(Color(.systemFill))
-                }
-                .buttonStyle(PlainButtonStyle())
             }
+
+            Button(action: { showApp = true }) {
+                HStack {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text(appInfo.name)
+                            .font(.body)
+                        (Text("Design by ").foregroundColor(.secondary) + Text(appInfo.author))
+                            .font(.footnote)
+                    }
+                    Spacer()
+                    Image(systemName: "chevron.right")
+                        .font(Font.body.bold())
+                        .foregroundColor(.secondary)
+                }
+                .padding()
+                .background(Color(.systemFill))
+            }
+            .buttonStyle(PlainButtonStyle())
         }
         .cornerRadius(16)
         .padding()

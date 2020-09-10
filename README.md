@@ -2,16 +2,22 @@
 
 This is a collection of designs turned into SwiftUI prototypes. The idea behind this repository is to have a common place to experiment with designs implemented using SwiftUI.
 
-## Applications
+# Applications
 
-### Goodreads
+## Goodreads
+![Goodreads Preview](./SnapshotTests/__Snapshots__/SnapshotTests/goodreads.1.png)
+
 - Design author: **Sylvie Stephanie**
 - Link to design: [Goodreads](https://medium.muz.li/goodreads-app-ux-case-study-2e63214fc005)
 
-### Watering Plant App
+## Watering Plant App
+![Watering Plant Preview](./SnapshotTests/__Snapshots__/SnapshotTests/wateringplant.1.png)
+
 - Design author: **Eva Dufey**
 - Link to design: [Watering Plant App - Weekly UI/UX](https://dribbble.com/shots/5939169-Watering-Plant-App-Weekly-UI-UX)
 
-### Simple Weather App
+## Simple Weather App
+![Simple Weather Preview](./SnapshotTests/__Snapshots__/SnapshotTests/simpleweather.1.png)
+
 - Design author: **Minh Pham**
 - Link to design: [Simple Weather App Prototype](https://dribbble.com/shots/14153317-simple-weather-app-prototype)

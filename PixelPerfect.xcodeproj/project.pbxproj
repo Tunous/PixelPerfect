@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		230E34EB250A249C00404209 /* Alignment+SelectionIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E34EA250A249C00404209 /* Alignment+SelectionIndicator.swift */; };
 		230E34ED250A266800404209 /* DaySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E34EC250A266800404209 /* DaySelectionView.swift */; };
 		230E34EF250A28E900404209 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E34EE250A28E900404209 /* Weather.swift */; };
+		230E34F9250A349300404209 /* SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E34F8250A349300404209 /* SnapshotTests.swift */; };
+		230E3502250A359100404209 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 230E3501250A359100404209 /* SnapshotTesting */; };
 		235ACE0624F5652500AE7387 /* UIWindow+ShakeGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235ACE0524F5652500AE7387 /* UIWindow+ShakeGesture.swift */; };
 		235ACE0924F56EDE00AE7387 /* WateringPlantCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235ACE0824F56EDE00AE7387 /* WateringPlantCellContentView.swift */; };
 		235ACE0A24F56EDE00AE7387 /* WateringPlantCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235ACE0824F56EDE00AE7387 /* WateringPlantCellContentView.swift */; };
@@ -64,6 +66,16 @@
 		23EE17A024F2B8F500D182D8 /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179F24F2B8F500D182D8 /* SquareButton.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		230E34FB250A349300404209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23EE176424F2792D00D182D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23EE176F24F2792E00D182D8;
+			remoteInfo = "PixelPerfect (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		230B39D224F564DD00EEF7FA /* ShakeGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeGesture.swift; sourceTree = "<group>"; };
 		230E34E8250A243000404209 /* WeatherPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPageView.swift; sourceTree = "<group>"; };
@@ -71,6 +83,9 @@
 		230E34EC250A266800404209 /* DaySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySelectionView.swift; sourceTree = "<group>"; };
 		230E34EE250A28E900404209 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		230E34F1250A2D9C00404209 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		230E34F6250A349300404209 /* SnapshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		230E34F8250A349300404209 /* SnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTests.swift; sourceTree = "<group>"; };
+		230E34FA250A349300404209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		235ACE0524F5652500AE7387 /* UIWindow+ShakeGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+ShakeGesture.swift"; sourceTree = "<group>"; };
 		235ACE0824F56EDE00AE7387 /* WateringPlantCellContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringPlantCellContentView.swift; sourceTree = "<group>"; };
 		239509AC250695E400BA2A3F /* SimpleWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWeatherApp.swift; sourceTree = "<group>"; };
@@ -120,6 +135,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		230E34F3250A349300404209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230E3502250A359100404209 /* SnapshotTesting in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		23EE176D24F2792E00D182D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,6 +168,15 @@
 				23A6656024F3F6F100EA77EE /* AppView.swift */,
 			);
 			path = "App Picker";
+			sourceTree = "<group>";
+		};
+		230E34F7250A349300404209 /* SnapshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				230E34F8250A349300404209 /* SnapshotTests.swift */,
+				230E34FA250A349300404209 /* Info.plist */,
+			);
+			path = SnapshotTests;
 			sourceTree = "<group>";
 		};
 		235ACE0724F56E6600AE7387 /* List */ = {
@@ -225,6 +257,7 @@
 				23EE176824F2792D00D182D8 /* Shared */,
 				23EE177224F2792E00D182D8 /* iOS */,
 				23EE177924F2792E00D182D8 /* macOS */,
+				230E34F7250A349300404209 /* SnapshotTests */,
 				23EE177124F2792E00D182D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -247,6 +280,7 @@
 			children = (
 				23EE177024F2792E00D182D8 /* PixelPerfect.app */,
 				23EE177824F2792E00D182D8 /* PixelPerfect.app */,
+				230E34F6250A349300404209 /* SnapshotTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,6 +344,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		230E34F5250A349300404209 /* SnapshotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230E34FF250A349300404209 /* Build configuration list for PBXNativeTarget "SnapshotTests" */;
+			buildPhases = (
+				230E34F2250A349300404209 /* Sources */,
+				230E34F3250A349300404209 /* Frameworks */,
+				230E34F4250A349300404209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				230E34FC250A349300404209 /* PBXTargetDependency */,
+			);
+			name = SnapshotTests;
+			packageProductDependencies = (
+				230E3501250A359100404209 /* SnapshotTesting */,
+			);
+			productName = SnapshotTests;
+			productReference = 230E34F6250A349300404209 /* SnapshotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		23EE176F24F2792E00D182D8 /* PixelPerfect (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23EE178424F2792E00D182D8 /* Build configuration list for PBXNativeTarget "PixelPerfect (iOS)" */;
@@ -353,6 +408,10 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					230E34F5250A349300404209 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 23EE176F24F2792E00D182D8;
+					};
 					23EE176F24F2792E00D182D8 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -370,17 +429,28 @@
 				Base,
 			);
 			mainGroup = 23EE176324F2792D00D182D8;
+			packageReferences = (
+				230E3500250A359100404209 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = 23EE177124F2792E00D182D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				23EE176F24F2792E00D182D8 /* PixelPerfect (iOS) */,
 				23EE177724F2792E00D182D8 /* PixelPerfect (macOS) */,
+				230E34F5250A349300404209 /* SnapshotTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		230E34F4250A349300404209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		23EE176E24F2792E00D182D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -400,6 +470,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		230E34F2250A349300404209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230E34F9250A349300404209 /* SnapshotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		23EE176C24F2792E00D182D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -469,7 +547,60 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		230E34FC250A349300404209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23EE176F24F2792E00D182D8 /* PixelPerfect (iOS) */;
+			targetProxy = 230E34FB250A349300404209 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		230E34FD250A349300404209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35X2XDKBD7;
+				INFOPLIST_FILE = SnapshotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.thanel.SnapshotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelPerfect.app/PixelPerfect";
+			};
+			name = Debug;
+		};
+		230E34FE250A349300404209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35X2XDKBD7;
+				INFOPLIST_FILE = SnapshotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.thanel.SnapshotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelPerfect.app/PixelPerfect";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		23EE178224F2792E00D182D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -677,6 +808,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		230E34FF250A349300404209 /* Build configuration list for PBXNativeTarget "SnapshotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230E34FD250A349300404209 /* Debug */,
+				230E34FE250A349300404209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		23EE176724F2792D00D182D8 /* Build configuration list for PBXProject "PixelPerfect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -705,6 +845,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		230E3500250A359100404209 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		230E3501250A359100404209 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 230E3500250A359100404209 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 23EE176424F2792D00D182D8 /* Project object */;
 }

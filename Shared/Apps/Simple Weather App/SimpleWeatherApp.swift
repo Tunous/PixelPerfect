@@ -10,7 +10,7 @@ import SwiftUI
 extension AppInfo {
 
     static let simpleWeatherApp = AppInfo(
-        id: "simepleweather",
+        id: "simpleweather",
         name: "Simple Weather App Prototype",
         author: "Minh Pham",
         url: "https://dribbble.com/shots/14153317-simple-weather-app-prototype",
