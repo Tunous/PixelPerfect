@@ -14,7 +14,7 @@ struct AppView<Content>: View where Content: View {
     let appInfo: AppInfo
     let appContent: Content
 
-    init(appInfo: AppInfo, @ViewBuilder appContent: () -> Content) {
+    init(_ appInfo: AppInfo, @ViewBuilder appContent: () -> Content) {
         self.appInfo = appInfo
         self.appContent = appContent()
     }
@@ -23,7 +23,7 @@ struct AppView<Content>: View where Content: View {
         VStack {
             VStack(alignment: .leading, spacing: 0) {
                 ZStack(alignment: .bottomTrailing) {
-                    Image(appInfo.image)
+                    Image(appInfo.id)
                         .resizable()
                         .scaledToFill()
                         .frame(height: 160)
@@ -73,7 +73,7 @@ struct AppView<Content>: View where Content: View {
 
 struct AppView_Previews: PreviewProvider {
     static var previews: some View {
-        AppView(appInfo: .simpleWeatherApp) {
+        AppView(.simpleWeatherApp) {
             Text("App")
         }
     }

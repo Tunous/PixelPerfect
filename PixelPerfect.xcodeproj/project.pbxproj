@@ -70,6 +70,7 @@
 		230E34EA250A249C00404209 /* Alignment+SelectionIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alignment+SelectionIndicator.swift"; sourceTree = "<group>"; };
 		230E34EC250A266800404209 /* DaySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySelectionView.swift; sourceTree = "<group>"; };
 		230E34EE250A28E900404209 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		230E34F1250A2D9C00404209 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		235ACE0524F5652500AE7387 /* UIWindow+ShakeGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+ShakeGesture.swift"; sourceTree = "<group>"; };
 		235ACE0824F56EDE00AE7387 /* WateringPlantCellContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringPlantCellContentView.swift; sourceTree = "<group>"; };
 		239509AC250695E400BA2A3F /* SimpleWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWeatherApp.swift; sourceTree = "<group>"; };
@@ -136,6 +137,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		230E34F0250A2CC700404209 /* App Picker */ = {
+			isa = PBXGroup;
+			children = (
+				23A6656324F3F96600EA77EE /* AppInfo.swift */,
+				23A6656624F3F98B00EA77EE /* AppPickerView.swift */,
+				23A6656024F3F6F100EA77EE /* AppView.swift */,
+			);
+			path = "App Picker";
+			sourceTree = "<group>";
+		};
 		235ACE0724F56E6600AE7387 /* List */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +221,7 @@
 		23EE176324F2792D00D182D8 = {
 			isa = PBXGroup;
 			children = (
+				230E34F1250A2D9C00404209 /* README.md */,
 				23EE176824F2792D00D182D8 /* Shared */,
 				23EE177224F2792E00D182D8 /* iOS */,
 				23EE177924F2792E00D182D8 /* macOS */,
@@ -220,13 +232,11 @@
 		23EE176824F2792D00D182D8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				230E34F0250A2CC700404209 /* App Picker */,
 				23BEDED224F3CDDE0043FC8E /* Apps */,
 				23EE179624F2ABA200D182D8 /* Extensions */,
 				23EE179124F2A94C00D182D8 /* Common Views */,
 				23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */,
-				23A6656624F3F98B00EA77EE /* AppPickerView.swift */,
-				23A6656324F3F96600EA77EE /* AppInfo.swift */,
-				23A6656024F3F6F100EA77EE /* AppView.swift */,
 				23EE176B24F2792D00D182D8 /* Assets.xcassets */,
 			);
 			path = Shared;

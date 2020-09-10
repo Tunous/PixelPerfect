@@ -7,6 +7,17 @@
 
 import SwiftUI
 
+extension AppInfo {
+
+    static let simpleWeatherApp = AppInfo(
+        id: "simepleweather",
+        name: "Simple Weather App Prototype",
+        author: "Minh Pham",
+        url: "https://dribbble.com/shots/14153317-simple-weather-app-prototype",
+        accentColor: .systemYellow
+    )
+}
+
 struct SimpleWeatherApp: View {
     @State private var selectedPage: Int = 0
 
@@ -37,5 +48,3 @@ struct SimpleWeatherApp_Previews: PreviewProvider {
             
     }
 }
-
-

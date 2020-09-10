@@ -13,13 +13,13 @@ struct AppPickerView: View {
         NavigationView {
             ZStack(alignment: .bottom) {
                 ScrollView {
-                    AppView(appInfo: .simpleWeatherApp) {
+                    AppView(.simpleWeatherApp) {
                         SimpleWeatherApp()
                     }
-                    AppView(appInfo: .wateringPlantApp) {
+                    AppView(.wateringPlantApp) {
                         WateringPlantApp()
                     }
-                    AppView(appInfo: .goodreadsApp) {
+                    AppView(.goodreadsApp) {
                         GoodreadsApp()
                     }
                     Spacer(minLength: 40)

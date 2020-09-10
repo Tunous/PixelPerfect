@@ -7,6 +7,17 @@
 
 import SwiftUI
 
+extension AppInfo {
+
+    static let goodreadsApp = AppInfo(
+        id: "goodreads",
+        name: "Goodreads App — UX Case Study",
+        author: "Sylvie Stephanie",
+        url: "https://medium.muz.li/goodreads-app-ux-case-study-2e63214fc005",
+        accentColor: #colorLiteral(red: 0.5294117647, green: 0.4549019608, blue: 0.3529411765, alpha: 1)
+    )
+}
+
 struct GoodreadsApp: View {
     var body: some View {
         TabView {

@@ -7,6 +7,17 @@
 
 import SwiftUI
 
+extension AppInfo {
+
+    static let wateringPlantApp = AppInfo(
+        id: "wateringplant",
+        name: "Watering Plant App - Weekly UI/UX",
+        author: "Eva Dufey",
+        url: "https://dribbble.com/shots/5939169-Watering-Plant-App-Weekly-UI-UX",
+        accentColor: #colorLiteral(red: 0.0862745098, green: 0.8117647059, blue: 0.3960784314, alpha: 1)
+    )
+}
+
 struct WateringPlantApp: View {
     var body: some View {
         TabView {
