@@ -5,6 +5,7 @@
 //  Created by Łukasz Rutkowski on 25/08/2020.
 //
 
+#if !os(macOS)
 import UIKit
 
 extension UIWindow {
@@ -13,3 +14,4 @@ extension UIWindow {
         NotificationCenter.default.post(name: .deviceDidShakeNotification, object: event)
     }
 }
+#endif

@@ -9,6 +9,7 @@ import SwiftUI
 import PixelPerfectCore
 import WateringPlantApp
 import GoodreadsApp
+import SimpleWeatherApp
 
 struct AppPickerView: View {
 

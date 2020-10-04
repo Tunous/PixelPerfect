@@ -8,7 +8,7 @@
 import SwiftUI
 import PixelPerfectCore
 
-extension AppInfo {
+public extension AppInfo {
 
     static let simpleWeatherApp = AppInfo(
         id: "simpleweather",
@@ -19,12 +19,14 @@ extension AppInfo {
     )
 }
 
-struct SimpleWeatherApp: View {
+public struct SimpleWeatherApp: View {
     @State private var selectedPage: Int = 0
 
     let weathers: [Weather] = Weather.previewData
 
-    var body: some View {
+    public init() {}
+
+    public var body: some View {
         VStack(spacing: 24) {
             TabView(selection: $selectedPage.animation()) {
                 ForEach(weathers.indices, id: \.self) { index in
