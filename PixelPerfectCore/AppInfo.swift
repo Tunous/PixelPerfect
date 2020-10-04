@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct AppInfo {
+public struct AppInfo {
 
-    let id: String
-    let name: String
-    let author: String
-    let url: URL
-    let accentColor: Color
+    public let id: String
+    public let name: String
+    public let author: String
+    public let url: URL
+    public let accentColor: Color
 
-    init(id: String, name: String, author: String, url: String, accentColor: UIColor) {
+    public init(id: String, name: String, author: String, url: String, accentColor: UIColor) {
         self.id = id
         self.name = name
         self.author = author

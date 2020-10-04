@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import PixelPerfectCore
 
 struct AppPickerView: View {
 

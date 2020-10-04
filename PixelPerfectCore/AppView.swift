@@ -7,19 +7,19 @@
 
 import SwiftUI
 
-struct AppView<Content>: View where Content: View {
+public struct AppView<Content>: View where Content: View {
 
     @State private var showApp = false
 
     let appInfo: AppInfo
     let appContent: Content
 
-    init(_ appInfo: AppInfo, @ViewBuilder appContent: () -> Content) {
+    public init(_ appInfo: AppInfo, @ViewBuilder appContent: () -> Content) {
         self.appInfo = appInfo
         self.appContent = appContent()
     }
 
-    var body: some View {
+    public var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             ZStack(alignment: .bottomTrailing) {
                 Image(appInfo.id)
@@ -70,8 +70,17 @@ struct AppView<Content>: View where Content: View {
 }
 
 struct AppView_Previews: PreviewProvider {
+
+    static let app = AppInfo(
+        id: "simpleweather",
+        name: "Simple Weather App Prototype",
+        author: "Minh Pham",
+        url: "https://dribbble.com/shots/14153317-simple-weather-app-prototype",
+        accentColor: .systemYellow
+    )
+
     static var previews: some View {
-        AppView(.simpleWeatherApp) {
+        AppView(app) {
             Text("App")
         }
     }
