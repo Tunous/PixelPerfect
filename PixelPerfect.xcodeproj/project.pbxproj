@@ -15,6 +15,7 @@
 		230E34EF250A28E900404209 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E34EE250A28E900404209 /* Weather.swift */; };
 		230E34F9250A349300404209 /* SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E34F8250A349300404209 /* SnapshotTests.swift */; };
 		230E3502250A359100404209 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 230E3501250A359100404209 /* SnapshotTesting */; };
+		2340339F2529DDCA009ED17D /* FoodMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2340339E2529DDCA009ED17D /* FoodMenuApp.swift */; };
 		235ACE0624F5652500AE7387 /* UIWindow+ShakeGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235ACE0524F5652500AE7387 /* UIWindow+ShakeGesture.swift */; };
 		235ACE0924F56EDE00AE7387 /* WateringPlantCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235ACE0824F56EDE00AE7387 /* WateringPlantCellContentView.swift */; };
 		235ACE0A24F56EDE00AE7387 /* WateringPlantCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235ACE0824F56EDE00AE7387 /* WateringPlantCellContentView.swift */; };
@@ -64,6 +65,7 @@
 		23EE179C24F2AE6800D182D8 /* WateringPlantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179B24F2AE6800D182D8 /* WateringPlantCell.swift */; };
 		23EE179E24F2B2C900D182D8 /* WateringPlantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179D24F2B2C900D182D8 /* WateringPlantApp.swift */; };
 		23EE17A024F2B8F500D182D8 /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179F24F2B8F500D182D8 /* SquareButton.swift */; };
+		C75876031D8B4D3C48AE421B /* JoinedText in Frameworks */ = {isa = PBXBuildFile; productRef = 7709B7D68C93726308B3B57A /* JoinedText */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,7 @@
 		230E34F6250A349300404209 /* SnapshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		230E34F8250A349300404209 /* SnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTests.swift; sourceTree = "<group>"; };
 		230E34FA250A349300404209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2340339E2529DDCA009ED17D /* FoodMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenuApp.swift; sourceTree = "<group>"; };
 		235ACE0524F5652500AE7387 /* UIWindow+ShakeGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+ShakeGesture.swift"; sourceTree = "<group>"; };
 		235ACE0824F56EDE00AE7387 /* WateringPlantCellContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringPlantCellContentView.swift; sourceTree = "<group>"; };
 		239509AC250695E400BA2A3F /* SimpleWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWeatherApp.swift; sourceTree = "<group>"; };
@@ -147,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C75876031D8B4D3C48AE421B /* JoinedText in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +181,14 @@
 				230E34FA250A349300404209 /* Info.plist */,
 			);
 			path = SnapshotTests;
+			sourceTree = "<group>";
+		};
+		234033952529DD91009ED17D /* Food Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2340339E2529DDCA009ED17D /* FoodMenuApp.swift */,
+			);
+			path = "Food Menu";
 			sourceTree = "<group>";
 		};
 		235ACE0724F56E6600AE7387 /* List */ = {
@@ -243,6 +255,7 @@
 		23BEDED224F3CDDE0043FC8E /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				234033952529DD91009ED17D /* Food Menu */,
 				23BEDED124F3CDD00043FC8E /* Goodreads App */,
 				239509A9250695C500BA2A3F /* Simple Weather App */,
 				23EE178A24F27A1400D182D8 /* Watering Plant App */,
@@ -378,6 +391,9 @@
 			dependencies = (
 			);
 			name = "PixelPerfect (iOS)";
+			packageProductDependencies = (
+				7709B7D68C93726308B3B57A /* JoinedText */,
+			);
 			productName = "PixelPerfect (iOS)";
 			productReference = 23EE177024F2792E00D182D8 /* PixelPerfect.app */;
 			productType = "com.apple.product-type.application";
@@ -431,6 +447,7 @@
 			mainGroup = 23EE176324F2792D00D182D8;
 			packageReferences = (
 				230E3500250A359100404209 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+				68C5BCBF22A01629B208414F /* XCRemoteSwiftPackageReference "JoinedText" */,
 			);
 			productRefGroup = 23EE177124F2792E00D182D8 /* Products */;
 			projectDirPath = "";
@@ -510,6 +527,7 @@
 				23EE178C24F27A5500D182D8 /* WateringPlantDetails.swift in Sources */,
 				23C3216824F571D10000A33F /* PlantInformationBar.swift in Sources */,
 				230E34EB250A249C00404209 /* Alignment+SelectionIndicator.swift in Sources */,
+				2340339F2529DDCA009ED17D /* FoodMenuApp.swift in Sources */,
 				239509AF2506967400BA2A3F /* TemperatureView.swift in Sources */,
 				23C3216F24F575130000A33F /* PlantDetailsHeaderForeground.swift in Sources */,
 				23C3216C24F572D40000A33F /* EdgeInsets+Adjust.swift in Sources */,
@@ -855,6 +873,14 @@
 				minimumVersion = 1.8.2;
 			};
 		};
+		68C5BCBF22A01629B208414F /* XCRemoteSwiftPackageReference "JoinedText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Tunous/JoinedText";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -862,6 +888,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 230E3500250A359100404209 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
 			productName = SnapshotTesting;
+		};
+		7709B7D68C93726308B3B57A /* JoinedText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68C5BCBF22A01629B208414F /* XCRemoteSwiftPackageReference "JoinedText" */;
+			productName = JoinedText;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

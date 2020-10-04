@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "JoinedText",
+        "repositoryURL": "https://github.com/Tunous/JoinedText",
+        "state": {
+          "branch": null,
+          "revision": "479f42b1a5daeda1ceeb45dd81d6346df1c5ea7b",
+          "version": "0.1.0"
+        }
+      },
+      {
         "package": "SnapshotTesting",
         "repositoryURL": "https://github.com/pointfreeco/swift-snapshot-testing",
         "state": {
