@@ -6,8 +6,12 @@
 //
 
 import XCTest
-import SnapshotTesting
 import SwiftUI
+import SnapshotTesting
+import PixelPerfectCore
+import GoodreadsApp
+import WateringPlantApp
+import SimpleWeatherApp
 
 @testable import PixelPerfect
 
@@ -33,7 +37,7 @@ final class SnapshotTests: XCTestCase {
     ) {
         let view = AppView(appInfo) {}
             .frame(width: 440, height: 264)
-            .offset(x: 0, y: -10)
+            .offset(x: 0, y: -20)
         assertSnapshot(matching: view, as: .image, file: file, testName: appInfo.id, line: line)
     }
 }

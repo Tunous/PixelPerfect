@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		230E34F9250A349300404209 /* SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E34F8250A349300404209 /* SnapshotTests.swift */; };
-		230E3502250A359100404209 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 230E3501250A359100404209 /* SnapshotTesting */; };
+		230E3502250A359100404209 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 230E3501250A359100404209 /* SnapshotTesting */; };
 		2340339F2529DDCA009ED17D /* FoodMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2340339E2529DDCA009ED17D /* FoodMenuApp.swift */; };
 		234034002529E3A2009ED17D /* WateringPlantApp in Frameworks */ = {isa = PBXBuildFile; productRef = 234033FF2529E3A2009ED17D /* WateringPlantApp */; };
 		234034302529E684009ED17D /* GoodreadsApp in Frameworks */ = {isa = PBXBuildFile; productRef = 2340342F2529E684009ED17D /* GoodreadsApp */; };
