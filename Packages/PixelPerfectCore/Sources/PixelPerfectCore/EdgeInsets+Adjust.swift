@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension EdgeInsets {
+public extension EdgeInsets {
 
     func only(_ edges: Edge.Set) -> Self {
         EdgeInsets(

@@ -8,7 +8,7 @@
 import SwiftUI
 import PixelPerfectCore
 
-extension AppInfo {
+public extension AppInfo {
 
     static let wateringPlantApp = AppInfo(
         id: "wateringplant",
@@ -19,8 +19,10 @@ extension AppInfo {
     )
 }
 
-struct WateringPlantApp: View {
-    var body: some View {
+public struct WateringPlantApp: View {
+    public init() {}
+
+    public var body: some View {
         TabView {
             WateringPlantList()
                 .tabItem {

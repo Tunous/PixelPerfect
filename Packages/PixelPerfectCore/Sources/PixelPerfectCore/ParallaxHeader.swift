@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ParallaxHeader<Background, Content>: View where Background: View, Content: View {
+public struct ParallaxHeader<Background, Content>: View where Background: View, Content: View {
     let alignment: Alignment
     let background: Background
     let content: Content
 
-    init(
+    public init(
         alignment: Alignment = .center,
         @ViewBuilder content: () -> Content,
         @ViewBuilder background: () -> Background
@@ -22,7 +22,7 @@ struct ParallaxHeader<Background, Content>: View where Background: View, Content
         self.background = background()
     }
 
-    var body: some View {
+    public var body: some View {
         ZStack(alignment: alignment) {
             GeometryReader { geometry in
                 let verticalScrollOffset = geometry.frame(in: .global).minY

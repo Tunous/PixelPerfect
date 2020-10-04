@@ -14,16 +14,7 @@
 		230E34F9250A349300404209 /* SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E34F8250A349300404209 /* SnapshotTests.swift */; };
 		230E3502250A359100404209 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 230E3501250A359100404209 /* SnapshotTesting */; };
 		2340339F2529DDCA009ED17D /* FoodMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2340339E2529DDCA009ED17D /* FoodMenuApp.swift */; };
-		234033C42529E036009ED17D /* PixelPerfectCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 234033C22529E036009ED17D /* PixelPerfectCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		234033C72529E036009ED17D /* PixelPerfectCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234033C02529E036009ED17D /* PixelPerfectCore.framework */; };
-		234033C82529E036009ED17D /* PixelPerfectCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 234033C02529E036009ED17D /* PixelPerfectCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		234033D02529E04A009ED17D /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6656324F3F96600EA77EE /* AppInfo.swift */; };
-		234033D42529E0D5009ED17D /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6656024F3F6F100EA77EE /* AppView.swift */; };
-		234033D82529E145009ED17D /* ShakeGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230B39D224F564DD00EEF7FA /* ShakeGesture.swift */; };
-		234033DC2529E14A009ED17D /* UIWindow+ShakeGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235ACE0524F5652500AE7387 /* UIWindow+ShakeGesture.swift */; };
-		234033E02529E164009ED17D /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179724F2ABB000D182D8 /* Color+Extension.swift */; };
-		235ACE0924F56EDE00AE7387 /* WateringPlantCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235ACE0824F56EDE00AE7387 /* WateringPlantCellContentView.swift */; };
-		235ACE0A24F56EDE00AE7387 /* WateringPlantCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235ACE0824F56EDE00AE7387 /* WateringPlantCellContentView.swift */; };
+		234034002529E3A2009ED17D /* WateringPlantApp in Frameworks */ = {isa = PBXBuildFile; productRef = 234033FF2529E3A2009ED17D /* WateringPlantApp */; };
 		239509AD250695E400BA2A3F /* SimpleWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239509AC250695E400BA2A3F /* SimpleWeatherApp.swift */; };
 		239509AF2506967400BA2A3F /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239509AE2506967400BA2A3F /* TemperatureView.swift */; };
 		239509B12506982F00BA2A3F /* VerticalText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239509B02506982F00BA2A3F /* VerticalText.swift */; };
@@ -46,25 +37,10 @@
 		23BEDEEE24F3CEDD0043FC8E /* GenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEED24F3CEDD0043FC8E /* GenreView.swift */; };
 		23BEDEF024F3CEEA0043FC8E /* NewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEEF24F3CEEA0043FC8E /* NewsCard.swift */; };
 		23BEDEF224F3CEF20043FC8E /* ListPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEF124F3CEF20043FC8E /* ListPreviewView.swift */; };
-		23C3216624F571140000A33F /* GrowthHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3216524F571140000A33F /* GrowthHistoryView.swift */; };
-		23C3216824F571D10000A33F /* PlantInformationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3216724F571D10000A33F /* PlantInformationBar.swift */; };
-		23C3216A24F572480000A33F /* PlantAdditionalDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3216924F572480000A33F /* PlantAdditionalDetailsView.swift */; };
-		23C3216C24F572D40000A33F /* EdgeInsets+Adjust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3216B24F572D40000A33F /* EdgeInsets+Adjust.swift */; };
-		23C3216D24F572D40000A33F /* EdgeInsets+Adjust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3216B24F572D40000A33F /* EdgeInsets+Adjust.swift */; };
-		23C3216F24F575130000A33F /* PlantDetailsHeaderForeground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3216E24F575130000A33F /* PlantDetailsHeaderForeground.swift */; };
-		23C3217024F575130000A33F /* PlantDetailsHeaderForeground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3216E24F575130000A33F /* PlantDetailsHeaderForeground.swift */; };
 		23EE177C24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */; };
 		23EE177D24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */; };
 		23EE178024F2792E00D182D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EE176B24F2792D00D182D8 /* Assets.xcassets */; };
 		23EE178124F2792E00D182D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EE176B24F2792D00D182D8 /* Assets.xcassets */; };
-		23EE178C24F27A5500D182D8 /* WateringPlantDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE178B24F27A5500D182D8 /* WateringPlantDetails.swift */; };
-		23EE178E24F27A9800D182D8 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE178D24F27A9800D182D8 /* Plant.swift */; };
-		23EE179324F2A95D00D182D8 /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179224F2A95D00D182D8 /* ParallaxHeader.swift */; };
-		23EE179524F2AB1200D182D8 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179424F2AB1200D182D8 /* InfoView.swift */; };
-		23EE179A24F2AE3800D182D8 /* WateringPlantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179924F2AE3800D182D8 /* WateringPlantList.swift */; };
-		23EE179C24F2AE6800D182D8 /* WateringPlantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179B24F2AE6800D182D8 /* WateringPlantCell.swift */; };
-		23EE179E24F2B2C900D182D8 /* WateringPlantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179D24F2B2C900D182D8 /* WateringPlantApp.swift */; };
-		23EE17A024F2B8F500D182D8 /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE179F24F2B8F500D182D8 /* SquareButton.swift */; };
 		C75876031D8B4D3C48AE421B /* JoinedText in Frameworks */ = {isa = PBXBuildFile; productRef = 7709B7D68C93726308B3B57A /* JoinedText */; };
 /* End PBXBuildFile section */
 
@@ -76,13 +52,6 @@
 			remoteGlobalIDString = 23EE176F24F2792E00D182D8;
 			remoteInfo = "PixelPerfect (iOS)";
 		};
-		234033C52529E036009ED17D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23EE176424F2792D00D182D8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 234033BF2529E036009ED17D;
-			remoteInfo = PixelPerfectCore;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -92,7 +61,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				234033C82529E036009ED17D /* PixelPerfectCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,7 +68,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		230B39D224F564DD00EEF7FA /* ShakeGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeGesture.swift; sourceTree = "<group>"; };
 		230E34E8250A243000404209 /* WeatherPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPageView.swift; sourceTree = "<group>"; };
 		230E34EA250A249C00404209 /* Alignment+SelectionIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alignment+SelectionIndicator.swift"; sourceTree = "<group>"; };
 		230E34EC250A266800404209 /* DaySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySelectionView.swift; sourceTree = "<group>"; };
@@ -110,17 +77,12 @@
 		230E34F8250A349300404209 /* SnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTests.swift; sourceTree = "<group>"; };
 		230E34FA250A349300404209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2340339E2529DDCA009ED17D /* FoodMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenuApp.swift; sourceTree = "<group>"; };
-		234033C02529E036009ED17D /* PixelPerfectCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PixelPerfectCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		234033C22529E036009ED17D /* PixelPerfectCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PixelPerfectCore.h; sourceTree = "<group>"; };
-		234033C32529E036009ED17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		235ACE0524F5652500AE7387 /* UIWindow+ShakeGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+ShakeGesture.swift"; sourceTree = "<group>"; };
-		235ACE0824F56EDE00AE7387 /* WateringPlantCellContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringPlantCellContentView.swift; sourceTree = "<group>"; };
+		234033EB2529E260009ED17D /* WateringPlantApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WateringPlantApp; path = Apps/WateringPlantApp; sourceTree = "<group>"; };
+		234034112529E46E009ED17D /* PixelPerfectCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PixelPerfectCore; path = Packages/PixelPerfectCore; sourceTree = "<group>"; };
 		239509AC250695E400BA2A3F /* SimpleWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWeatherApp.swift; sourceTree = "<group>"; };
 		239509AE2506967400BA2A3F /* TemperatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureView.swift; sourceTree = "<group>"; };
 		239509B02506982F00BA2A3F /* VerticalText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalText.swift; sourceTree = "<group>"; };
 		239509B225069B4500BA2A3F /* DayWeatherIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeatherIndicatorView.swift; sourceTree = "<group>"; };
-		23A6656024F3F6F100EA77EE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
-		23A6656324F3F96600EA77EE /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
 		23A6656624F3F98B00EA77EE /* AppPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPickerView.swift; sourceTree = "<group>"; };
 		23BEDED324F3CE200043FC8E /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		23BEDED524F3CE340043FC8E /* ScrollingSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingSection.swift; sourceTree = "<group>"; };
@@ -138,11 +100,6 @@
 		23BEDEED24F3CEDD0043FC8E /* GenreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreView.swift; sourceTree = "<group>"; };
 		23BEDEEF24F3CEEA0043FC8E /* NewsCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCard.swift; sourceTree = "<group>"; };
 		23BEDEF124F3CEF20043FC8E /* ListPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPreviewView.swift; sourceTree = "<group>"; };
-		23C3216524F571140000A33F /* GrowthHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowthHistoryView.swift; sourceTree = "<group>"; };
-		23C3216724F571D10000A33F /* PlantInformationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantInformationBar.swift; sourceTree = "<group>"; };
-		23C3216924F572480000A33F /* PlantAdditionalDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantAdditionalDetailsView.swift; sourceTree = "<group>"; };
-		23C3216B24F572D40000A33F /* EdgeInsets+Adjust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EdgeInsets+Adjust.swift"; sourceTree = "<group>"; };
-		23C3216E24F575130000A33F /* PlantDetailsHeaderForeground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailsHeaderForeground.swift; sourceTree = "<group>"; };
 		23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelPerfectApp.swift; sourceTree = "<group>"; };
 		23EE176B24F2792D00D182D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23EE177024F2792E00D182D8 /* PixelPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,15 +107,6 @@
 		23EE177824F2792E00D182D8 /* PixelPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EE177A24F2792E00D182D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23EE177B24F2792E00D182D8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		23EE178B24F27A5500D182D8 /* WateringPlantDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringPlantDetails.swift; sourceTree = "<group>"; };
-		23EE178D24F27A9800D182D8 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
-		23EE179224F2A95D00D182D8 /* ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
-		23EE179424F2AB1200D182D8 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
-		23EE179724F2ABB000D182D8 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
-		23EE179924F2AE3800D182D8 /* WateringPlantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringPlantList.swift; sourceTree = "<group>"; };
-		23EE179B24F2AE6800D182D8 /* WateringPlantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringPlantCell.swift; sourceTree = "<group>"; };
-		23EE179D24F2B2C900D182D8 /* WateringPlantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringPlantApp.swift; sourceTree = "<group>"; };
-		23EE179F24F2B8F500D182D8 /* SquareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,18 +118,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		234033BD2529E036009ED17D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		23EE176D24F2792E00D182D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				234033C72529E036009ED17D /* PixelPerfectCore.framework in Frameworks */,
+				234034002529E3A2009ED17D /* WateringPlantApp in Frameworks */,
 				C75876031D8B4D3C48AE421B /* JoinedText in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,41 +162,11 @@
 			path = "Food Menu";
 			sourceTree = "<group>";
 		};
-		234033C12529E036009ED17D /* PixelPerfectCore */ = {
+		234033FE2529E3A2009ED17D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				235ACE0524F5652500AE7387 /* UIWindow+ShakeGesture.swift */,
-				23EE179724F2ABB000D182D8 /* Color+Extension.swift */,
-				230B39D224F564DD00EEF7FA /* ShakeGesture.swift */,
-				23A6656024F3F6F100EA77EE /* AppView.swift */,
-				23A6656324F3F96600EA77EE /* AppInfo.swift */,
-				234033C22529E036009ED17D /* PixelPerfectCore.h */,
-				234033C32529E036009ED17D /* Info.plist */,
 			);
-			path = PixelPerfectCore;
-			sourceTree = "<group>";
-		};
-		235ACE0724F56E6600AE7387 /* List */ = {
-			isa = PBXGroup;
-			children = (
-				23EE179924F2AE3800D182D8 /* WateringPlantList.swift */,
-				23EE179B24F2AE6800D182D8 /* WateringPlantCell.swift */,
-				235ACE0824F56EDE00AE7387 /* WateringPlantCellContentView.swift */,
-			);
-			path = List;
-			sourceTree = "<group>";
-		};
-		235ACE0B24F5703900AE7387 /* Details */ = {
-			isa = PBXGroup;
-			children = (
-				23C3216524F571140000A33F /* GrowthHistoryView.swift */,
-				23EE179424F2AB1200D182D8 /* InfoView.swift */,
-				23C3216924F572480000A33F /* PlantAdditionalDetailsView.swift */,
-				23C3216E24F575130000A33F /* PlantDetailsHeaderForeground.swift */,
-				23C3216724F571D10000A33F /* PlantInformationBar.swift */,
-				23EE178B24F27A5500D182D8 /* WateringPlantDetails.swift */,
-			);
-			path = Details;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		239509A9250695C500BA2A3F /* Simple Weather App */ = {
@@ -302,7 +213,6 @@
 				234033952529DD91009ED17D /* Food Menu */,
 				23BEDED124F3CDD00043FC8E /* Goodreads App */,
 				239509A9250695C500BA2A3F /* Simple Weather App */,
-				23EE178A24F27A1400D182D8 /* Watering Plant App */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -310,13 +220,15 @@
 		23EE176324F2792D00D182D8 = {
 			isa = PBXGroup;
 			children = (
+				234034112529E46E009ED17D /* PixelPerfectCore */,
+				234033EB2529E260009ED17D /* WateringPlantApp */,
 				230E34F1250A2D9C00404209 /* README.md */,
 				23EE176824F2792D00D182D8 /* Shared */,
 				23EE177224F2792E00D182D8 /* iOS */,
 				23EE177924F2792E00D182D8 /* macOS */,
 				230E34F7250A349300404209 /* SnapshotTests */,
-				234033C12529E036009ED17D /* PixelPerfectCore */,
 				23EE177124F2792E00D182D8 /* Products */,
+				234033FE2529E3A2009ED17D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -339,7 +251,6 @@
 				23EE177024F2792E00D182D8 /* PixelPerfect.app */,
 				23EE177824F2792E00D182D8 /* PixelPerfect.app */,
 				230E34F6250A349300404209 /* SnapshotTests.xctest */,
-				234033C02529E036009ED17D /* PixelPerfectCore.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -361,30 +272,9 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		23EE178A24F27A1400D182D8 /* Watering Plant App */ = {
-			isa = PBXGroup;
-			children = (
-				235ACE0B24F5703900AE7387 /* Details */,
-				235ACE0724F56E6600AE7387 /* List */,
-				23EE179024F27AB700D182D8 /* Model */,
-				23EE179F24F2B8F500D182D8 /* SquareButton.swift */,
-				23EE179D24F2B2C900D182D8 /* WateringPlantApp.swift */,
-			);
-			path = "Watering Plant App";
-			sourceTree = "<group>";
-		};
-		23EE179024F27AB700D182D8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				23EE178D24F27A9800D182D8 /* Plant.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		23EE179124F2A94C00D182D8 /* Common Views */ = {
 			isa = PBXGroup;
 			children = (
-				23EE179224F2A95D00D182D8 /* ParallaxHeader.swift */,
 			);
 			path = "Common Views";
 			sourceTree = "<group>";
@@ -392,23 +282,11 @@
 		23EE179624F2ABA200D182D8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				23C3216B24F572D40000A33F /* EdgeInsets+Adjust.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		234033BB2529E036009ED17D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				234033C42529E036009ED17D /* PixelPerfectCore.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		230E34F5250A349300404209 /* SnapshotTests */ = {
@@ -432,24 +310,6 @@
 			productReference = 230E34F6250A349300404209 /* SnapshotTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		234033BF2529E036009ED17D /* PixelPerfectCore */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 234033CC2529E036009ED17D /* Build configuration list for PBXNativeTarget "PixelPerfectCore" */;
-			buildPhases = (
-				234033BB2529E036009ED17D /* Headers */,
-				234033BC2529E036009ED17D /* Sources */,
-				234033BD2529E036009ED17D /* Frameworks */,
-				234033BE2529E036009ED17D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PixelPerfectCore;
-			productName = PixelPerfectCore;
-			productReference = 234033C02529E036009ED17D /* PixelPerfectCore.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		23EE176F24F2792E00D182D8 /* PixelPerfect (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23EE178424F2792E00D182D8 /* Build configuration list for PBXNativeTarget "PixelPerfect (iOS)" */;
@@ -462,11 +322,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				234033C62529E036009ED17D /* PBXTargetDependency */,
 			);
 			name = "PixelPerfect (iOS)";
 			packageProductDependencies = (
 				7709B7D68C93726308B3B57A /* JoinedText */,
+				234033FF2529E3A2009ED17D /* WateringPlantApp */,
 			);
 			productName = "PixelPerfect (iOS)";
 			productReference = 23EE177024F2792E00D182D8 /* PixelPerfect.app */;
@@ -502,9 +362,6 @@
 						CreatedOnToolsVersion = 12.0;
 						TestTargetID = 23EE176F24F2792E00D182D8;
 					};
-					234033BF2529E036009ED17D = {
-						CreatedOnToolsVersion = 12.0.1;
-					};
 					23EE176F24F2792E00D182D8 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -533,20 +390,12 @@
 				23EE176F24F2792E00D182D8 /* PixelPerfect (iOS) */,
 				23EE177724F2792E00D182D8 /* PixelPerfect (macOS) */,
 				230E34F5250A349300404209 /* SnapshotTests */,
-				234033BF2529E036009ED17D /* PixelPerfectCore */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		230E34F4250A349300404209 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		234033BE2529E036009ED17D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -580,63 +429,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		234033BC2529E036009ED17D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				234033D42529E0D5009ED17D /* AppView.swift in Sources */,
-				234033E02529E164009ED17D /* Color+Extension.swift in Sources */,
-				234033D02529E04A009ED17D /* AppInfo.swift in Sources */,
-				234033DC2529E14A009ED17D /* UIWindow+ShakeGesture.swift in Sources */,
-				234033D82529E145009ED17D /* ShakeGesture.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		23EE176C24F2792E00D182D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23C3216624F571140000A33F /* GrowthHistoryView.swift in Sources */,
 				23BEDEE224F3CE940043FC8E /* UpdateCard.swift in Sources */,
-				23EE17A024F2B8F500D182D8 /* SquareButton.swift in Sources */,
 				23BEDEDA24F3CE4C0043FC8E /* CurrentlyReadingCard.swift in Sources */,
 				230E34EF250A28E900404209 /* Weather.swift in Sources */,
 				239509AD250695E400BA2A3F /* SimpleWeatherApp.swift in Sources */,
-				23EE179E24F2B2C900D182D8 /* WateringPlantApp.swift in Sources */,
-				23EE179C24F2AE6800D182D8 /* WateringPlantCell.swift in Sources */,
 				23BEDEEE24F3CEDD0043FC8E /* GenreView.swift in Sources */,
 				23BEDEE024F3CE690043FC8E /* View+Card.swift in Sources */,
 				23BEDEE624F3CEB90043FC8E /* DiscoverView.swift in Sources */,
 				23BEDEEC24F3CED50043FC8E /* BookRecommendationView.swift in Sources */,
 				239509B325069B4500BA2A3F /* DayWeatherIndicatorView.swift in Sources */,
 				23A6656724F3F98B00EA77EE /* AppPickerView.swift in Sources */,
-				23EE178E24F27A9800D182D8 /* Plant.swift in Sources */,
 				23BEDEE424F3CEA30043FC8E /* GoodreadsApp.swift in Sources */,
 				23BEDED424F3CE200043FC8E /* HomeView.swift in Sources */,
-				23C3216A24F572480000A33F /* PlantAdditionalDetailsView.swift in Sources */,
 				23EE177C24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */,
 				230E34ED250A266800404209 /* DaySelectionView.swift in Sources */,
 				23BEDEF024F3CEEA0043FC8E /* NewsCard.swift in Sources */,
 				239509B12506982F00BA2A3F /* VerticalText.swift in Sources */,
 				23BEDEDC24F3CE580043FC8E /* Book.swift in Sources */,
-				23EE178C24F27A5500D182D8 /* WateringPlantDetails.swift in Sources */,
-				23C3216824F571D10000A33F /* PlantInformationBar.swift in Sources */,
 				230E34EB250A249C00404209 /* Alignment+SelectionIndicator.swift in Sources */,
 				2340339F2529DDCA009ED17D /* FoodMenuApp.swift in Sources */,
 				239509AF2506967400BA2A3F /* TemperatureView.swift in Sources */,
-				23C3216F24F575130000A33F /* PlantDetailsHeaderForeground.swift in Sources */,
-				23C3216C24F572D40000A33F /* EdgeInsets+Adjust.swift in Sources */,
 				230E34E9250A243000404209 /* WeatherPageView.swift in Sources */,
-				23EE179524F2AB1200D182D8 /* InfoView.swift in Sources */,
-				23EE179A24F2AE3800D182D8 /* WateringPlantList.swift in Sources */,
-				23EE179324F2A95D00D182D8 /* ParallaxHeader.swift in Sources */,
 				23BEDEDE24F3CE5F0043FC8E /* CoverImage.swift in Sources */,
 				23BEDED624F3CE340043FC8E /* ScrollingSection.swift in Sources */,
 				23BEDEE824F3CEBF0043FC8E /* MyBooksView.swift in Sources */,
 				23BEDEF224F3CEF20043FC8E /* ListPreviewView.swift in Sources */,
 				23BEDEEA24F3CEC50043FC8E /* ProfileView.swift in Sources */,
 				23BEDED824F3CE400043FC8E /* SectionHeader.swift in Sources */,
-				235ACE0924F56EDE00AE7387 /* WateringPlantCellContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,10 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A6656824F3F98B00EA77EE /* AppPickerView.swift in Sources */,
-				235ACE0A24F56EDE00AE7387 /* WateringPlantCellContentView.swift in Sources */,
 				23EE177D24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */,
-				23C3216D24F572D40000A33F /* EdgeInsets+Adjust.swift in Sources */,
-				23C3217024F575130000A33F /* PlantDetailsHeaderForeground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,11 +479,6 @@
 			isa = PBXTargetDependency;
 			target = 23EE176F24F2792E00D182D8 /* PixelPerfect (iOS) */;
 			targetProxy = 230E34FB250A349300404209 /* PBXContainerItemProxy */;
-		};
-		234033C62529E036009ED17D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 234033BF2529E036009ED17D /* PixelPerfectCore */;
-			targetProxy = 234033C52529E036009ED17D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -710,65 +525,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelPerfect.app/PixelPerfect";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		234033CA2529E036009ED17D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 35X2XDKBD7;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PixelPerfectCore/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.thanel.PixelPerfectCore;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		234033CB2529E036009ED17D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 35X2XDKBD7;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PixelPerfectCore/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.thanel.PixelPerfectCore;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -886,7 +642,6 @@
 		23EE178524F2792E00D182D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -909,7 +664,6 @@
 		23EE178624F2792E00D182D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -990,15 +744,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		234033CC2529E036009ED17D /* Build configuration list for PBXNativeTarget "PixelPerfectCore" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				234033CA2529E036009ED17D /* Debug */,
-				234033CB2529E036009ED17D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		23EE176724F2792D00D182D8 /* Build configuration list for PBXProject "PixelPerfect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1052,6 +797,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 230E3500250A359100404209 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
 			productName = SnapshotTesting;
+		};
+		234033FF2529E3A2009ED17D /* WateringPlantApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WateringPlantApp;
 		};
 		7709B7D68C93726308B3B57A /* JoinedText */ = {
 			isa = XCSwiftPackageProductDependency;

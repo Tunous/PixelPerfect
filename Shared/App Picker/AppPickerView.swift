@@ -7,6 +7,7 @@
 
 import SwiftUI
 import PixelPerfectCore
+import WateringPlantApp
 
 struct AppPickerView: View {
 
