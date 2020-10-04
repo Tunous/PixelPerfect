@@ -15,28 +15,13 @@
 		230E3502250A359100404209 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 230E3501250A359100404209 /* SnapshotTesting */; };
 		2340339F2529DDCA009ED17D /* FoodMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2340339E2529DDCA009ED17D /* FoodMenuApp.swift */; };
 		234034002529E3A2009ED17D /* WateringPlantApp in Frameworks */ = {isa = PBXBuildFile; productRef = 234033FF2529E3A2009ED17D /* WateringPlantApp */; };
+		234034302529E684009ED17D /* GoodreadsApp in Frameworks */ = {isa = PBXBuildFile; productRef = 2340342F2529E684009ED17D /* GoodreadsApp */; };
 		239509AD250695E400BA2A3F /* SimpleWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239509AC250695E400BA2A3F /* SimpleWeatherApp.swift */; };
 		239509AF2506967400BA2A3F /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239509AE2506967400BA2A3F /* TemperatureView.swift */; };
 		239509B12506982F00BA2A3F /* VerticalText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239509B02506982F00BA2A3F /* VerticalText.swift */; };
 		239509B325069B4500BA2A3F /* DayWeatherIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239509B225069B4500BA2A3F /* DayWeatherIndicatorView.swift */; };
 		23A6656724F3F98B00EA77EE /* AppPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6656624F3F98B00EA77EE /* AppPickerView.swift */; };
 		23A6656824F3F98B00EA77EE /* AppPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6656624F3F98B00EA77EE /* AppPickerView.swift */; };
-		23BEDED424F3CE200043FC8E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDED324F3CE200043FC8E /* HomeView.swift */; };
-		23BEDED624F3CE340043FC8E /* ScrollingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDED524F3CE340043FC8E /* ScrollingSection.swift */; };
-		23BEDED824F3CE400043FC8E /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDED724F3CE400043FC8E /* SectionHeader.swift */; };
-		23BEDEDA24F3CE4C0043FC8E /* CurrentlyReadingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDED924F3CE4C0043FC8E /* CurrentlyReadingCard.swift */; };
-		23BEDEDC24F3CE580043FC8E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEDB24F3CE580043FC8E /* Book.swift */; };
-		23BEDEDE24F3CE5F0043FC8E /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEDD24F3CE5F0043FC8E /* CoverImage.swift */; };
-		23BEDEE024F3CE690043FC8E /* View+Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEDF24F3CE690043FC8E /* View+Card.swift */; };
-		23BEDEE224F3CE940043FC8E /* UpdateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEE124F3CE940043FC8E /* UpdateCard.swift */; };
-		23BEDEE424F3CEA30043FC8E /* GoodreadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEE324F3CEA30043FC8E /* GoodreadsApp.swift */; };
-		23BEDEE624F3CEB90043FC8E /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEE524F3CEB90043FC8E /* DiscoverView.swift */; };
-		23BEDEE824F3CEBF0043FC8E /* MyBooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEE724F3CEBF0043FC8E /* MyBooksView.swift */; };
-		23BEDEEA24F3CEC50043FC8E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEE924F3CEC50043FC8E /* ProfileView.swift */; };
-		23BEDEEC24F3CED50043FC8E /* BookRecommendationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEEB24F3CED50043FC8E /* BookRecommendationView.swift */; };
-		23BEDEEE24F3CEDD0043FC8E /* GenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEED24F3CEDD0043FC8E /* GenreView.swift */; };
-		23BEDEF024F3CEEA0043FC8E /* NewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEEF24F3CEEA0043FC8E /* NewsCard.swift */; };
-		23BEDEF224F3CEF20043FC8E /* ListPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEDEF124F3CEF20043FC8E /* ListPreviewView.swift */; };
 		23EE177C24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */; };
 		23EE177D24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */; };
 		23EE178024F2792E00D182D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EE176B24F2792D00D182D8 /* Assets.xcassets */; };
@@ -79,27 +64,12 @@
 		2340339E2529DDCA009ED17D /* FoodMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenuApp.swift; sourceTree = "<group>"; };
 		234033EB2529E260009ED17D /* WateringPlantApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WateringPlantApp; path = Apps/WateringPlantApp; sourceTree = "<group>"; };
 		234034112529E46E009ED17D /* PixelPerfectCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PixelPerfectCore; path = Packages/PixelPerfectCore; sourceTree = "<group>"; };
+		234034222529E5B1009ED17D /* GoodreadsApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GoodreadsApp; path = Apps/GoodreadsApp; sourceTree = "<group>"; };
 		239509AC250695E400BA2A3F /* SimpleWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWeatherApp.swift; sourceTree = "<group>"; };
 		239509AE2506967400BA2A3F /* TemperatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureView.swift; sourceTree = "<group>"; };
 		239509B02506982F00BA2A3F /* VerticalText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalText.swift; sourceTree = "<group>"; };
 		239509B225069B4500BA2A3F /* DayWeatherIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeatherIndicatorView.swift; sourceTree = "<group>"; };
 		23A6656624F3F98B00EA77EE /* AppPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPickerView.swift; sourceTree = "<group>"; };
-		23BEDED324F3CE200043FC8E /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		23BEDED524F3CE340043FC8E /* ScrollingSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingSection.swift; sourceTree = "<group>"; };
-		23BEDED724F3CE400043FC8E /* SectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
-		23BEDED924F3CE4C0043FC8E /* CurrentlyReadingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentlyReadingCard.swift; sourceTree = "<group>"; };
-		23BEDEDB24F3CE580043FC8E /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
-		23BEDEDD24F3CE5F0043FC8E /* CoverImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
-		23BEDEDF24F3CE690043FC8E /* View+Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Card.swift"; sourceTree = "<group>"; };
-		23BEDEE124F3CE940043FC8E /* UpdateCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateCard.swift; sourceTree = "<group>"; };
-		23BEDEE324F3CEA30043FC8E /* GoodreadsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodreadsApp.swift; sourceTree = "<group>"; };
-		23BEDEE524F3CEB90043FC8E /* DiscoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
-		23BEDEE724F3CEBF0043FC8E /* MyBooksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBooksView.swift; sourceTree = "<group>"; };
-		23BEDEE924F3CEC50043FC8E /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		23BEDEEB24F3CED50043FC8E /* BookRecommendationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookRecommendationView.swift; sourceTree = "<group>"; };
-		23BEDEED24F3CEDD0043FC8E /* GenreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreView.swift; sourceTree = "<group>"; };
-		23BEDEEF24F3CEEA0043FC8E /* NewsCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCard.swift; sourceTree = "<group>"; };
-		23BEDEF124F3CEF20043FC8E /* ListPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPreviewView.swift; sourceTree = "<group>"; };
 		23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelPerfectApp.swift; sourceTree = "<group>"; };
 		23EE176B24F2792D00D182D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23EE177024F2792E00D182D8 /* PixelPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +94,7 @@
 			files = (
 				234034002529E3A2009ED17D /* WateringPlantApp in Frameworks */,
 				C75876031D8B4D3C48AE421B /* JoinedText in Frameworks */,
+				234034302529E684009ED17D /* GoodreadsApp in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,34 +155,10 @@
 			path = "Simple Weather App";
 			sourceTree = "<group>";
 		};
-		23BEDED124F3CDD00043FC8E /* Goodreads App */ = {
-			isa = PBXGroup;
-			children = (
-				23BEDEE324F3CEA30043FC8E /* GoodreadsApp.swift */,
-				23BEDEE524F3CEB90043FC8E /* DiscoverView.swift */,
-				23BEDEE724F3CEBF0043FC8E /* MyBooksView.swift */,
-				23BEDEE924F3CEC50043FC8E /* ProfileView.swift */,
-				23BEDEEB24F3CED50043FC8E /* BookRecommendationView.swift */,
-				23BEDEED24F3CEDD0043FC8E /* GenreView.swift */,
-				23BEDEEF24F3CEEA0043FC8E /* NewsCard.swift */,
-				23BEDEE124F3CE940043FC8E /* UpdateCard.swift */,
-				23BEDEF124F3CEF20043FC8E /* ListPreviewView.swift */,
-				23BEDEDF24F3CE690043FC8E /* View+Card.swift */,
-				23BEDEDD24F3CE5F0043FC8E /* CoverImage.swift */,
-				23BEDEDB24F3CE580043FC8E /* Book.swift */,
-				23BEDED924F3CE4C0043FC8E /* CurrentlyReadingCard.swift */,
-				23BEDED724F3CE400043FC8E /* SectionHeader.swift */,
-				23BEDED524F3CE340043FC8E /* ScrollingSection.swift */,
-				23BEDED324F3CE200043FC8E /* HomeView.swift */,
-			);
-			path = "Goodreads App";
-			sourceTree = "<group>";
-		};
 		23BEDED224F3CDDE0043FC8E /* Apps */ = {
 			isa = PBXGroup;
 			children = (
 				234033952529DD91009ED17D /* Food Menu */,
-				23BEDED124F3CDD00043FC8E /* Goodreads App */,
 				239509A9250695C500BA2A3F /* Simple Weather App */,
 			);
 			path = Apps;
@@ -220,6 +167,7 @@
 		23EE176324F2792D00D182D8 = {
 			isa = PBXGroup;
 			children = (
+				234034222529E5B1009ED17D /* GoodreadsApp */,
 				234034112529E46E009ED17D /* PixelPerfectCore */,
 				234033EB2529E260009ED17D /* WateringPlantApp */,
 				230E34F1250A2D9C00404209 /* README.md */,
@@ -327,6 +275,7 @@
 			packageProductDependencies = (
 				7709B7D68C93726308B3B57A /* JoinedText */,
 				234033FF2529E3A2009ED17D /* WateringPlantApp */,
+				2340342F2529E684009ED17D /* GoodreadsApp */,
 			);
 			productName = "PixelPerfect (iOS)";
 			productReference = 23EE177024F2792E00D182D8 /* PixelPerfect.app */;
@@ -433,33 +382,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23BEDEE224F3CE940043FC8E /* UpdateCard.swift in Sources */,
-				23BEDEDA24F3CE4C0043FC8E /* CurrentlyReadingCard.swift in Sources */,
 				230E34EF250A28E900404209 /* Weather.swift in Sources */,
 				239509AD250695E400BA2A3F /* SimpleWeatherApp.swift in Sources */,
-				23BEDEEE24F3CEDD0043FC8E /* GenreView.swift in Sources */,
-				23BEDEE024F3CE690043FC8E /* View+Card.swift in Sources */,
-				23BEDEE624F3CEB90043FC8E /* DiscoverView.swift in Sources */,
-				23BEDEEC24F3CED50043FC8E /* BookRecommendationView.swift in Sources */,
 				239509B325069B4500BA2A3F /* DayWeatherIndicatorView.swift in Sources */,
 				23A6656724F3F98B00EA77EE /* AppPickerView.swift in Sources */,
-				23BEDEE424F3CEA30043FC8E /* GoodreadsApp.swift in Sources */,
-				23BEDED424F3CE200043FC8E /* HomeView.swift in Sources */,
 				23EE177C24F2792E00D182D8 /* PixelPerfectApp.swift in Sources */,
 				230E34ED250A266800404209 /* DaySelectionView.swift in Sources */,
-				23BEDEF024F3CEEA0043FC8E /* NewsCard.swift in Sources */,
 				239509B12506982F00BA2A3F /* VerticalText.swift in Sources */,
-				23BEDEDC24F3CE580043FC8E /* Book.swift in Sources */,
 				230E34EB250A249C00404209 /* Alignment+SelectionIndicator.swift in Sources */,
 				2340339F2529DDCA009ED17D /* FoodMenuApp.swift in Sources */,
 				239509AF2506967400BA2A3F /* TemperatureView.swift in Sources */,
 				230E34E9250A243000404209 /* WeatherPageView.swift in Sources */,
-				23BEDEDE24F3CE5F0043FC8E /* CoverImage.swift in Sources */,
-				23BEDED624F3CE340043FC8E /* ScrollingSection.swift in Sources */,
-				23BEDEE824F3CEBF0043FC8E /* MyBooksView.swift in Sources */,
-				23BEDEF224F3CEF20043FC8E /* ListPreviewView.swift in Sources */,
-				23BEDEEA24F3CEC50043FC8E /* ProfileView.swift in Sources */,
-				23BEDED824F3CE400043FC8E /* SectionHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,6 +734,10 @@
 		234033FF2529E3A2009ED17D /* WateringPlantApp */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = WateringPlantApp;
+		};
+		2340342F2529E684009ED17D /* GoodreadsApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GoodreadsApp;
 		};
 		7709B7D68C93726308B3B57A /* JoinedText */ = {
 			isa = XCSwiftPackageProductDependency;
