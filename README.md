@@ -21,3 +21,9 @@ This is a collection of designs turned into SwiftUI prototypes. The idea behind 
 
 - Design author: **Minh Pham**
 - Link to design: [Simple Weather App Prototype](https://dribbble.com/shots/14153317-simple-weather-app-prototype)
+
+## Food Menu App
+<img src="./SnapshotTests/__Snapshots__/SnapshotTests/foodmenu.1.png" width="440" height="264">
+
+- Design author: **Unknown**
+- Link to design: [Food Menu App](https://www.pinterest.com/pin/774124922767471/)

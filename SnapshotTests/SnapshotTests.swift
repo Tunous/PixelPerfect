@@ -12,6 +12,7 @@ import PixelPerfectCore
 import GoodreadsApp
 import WateringPlantApp
 import SimpleWeatherApp
+import FoodMenuApp
 
 @testable import PixelPerfect
 
@@ -27,6 +28,10 @@ final class SnapshotTests: XCTestCase {
 
     func testSimpleWeatherApp() {
         assertAppSnapshot(.simpleWeatherApp)
+    }
+
+    func testFoodMenuApp() {
+        assertAppSnapshot(.foodMenuApp)
     }
 
     private func assertAppSnapshot(

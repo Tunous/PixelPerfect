@@ -10,6 +10,7 @@ import PixelPerfectCore
 import WateringPlantApp
 import GoodreadsApp
 import SimpleWeatherApp
+import FoodMenuApp
 
 struct AppPickerView: View {
 
@@ -17,6 +18,9 @@ struct AppPickerView: View {
         NavigationView {
             ZStack(alignment: .bottom) {
                 ScrollView {
+                    AppView(.foodMenuApp) {
+                        FoodMenuApp()
+                    }
                     AppView(.simpleWeatherApp) {
                         SimpleWeatherApp()
                     }

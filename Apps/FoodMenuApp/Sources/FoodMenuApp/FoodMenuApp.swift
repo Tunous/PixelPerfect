@@ -8,7 +8,7 @@
 import SwiftUI
 import PixelPerfectCore
 
-extension AppInfo {
+public extension AppInfo {
 
     static let foodMenuApp = AppInfo(
         id: "foodmenu",
@@ -19,8 +19,10 @@ extension AppInfo {
     )
 }
 
-struct FoodMenuApp: View {
-    var body: some View {
+public struct FoodMenuApp: View {
+    public init() {}
+
+    public var body: some View {
         VStack {
             Text("Pizza")
             Text("25 items")

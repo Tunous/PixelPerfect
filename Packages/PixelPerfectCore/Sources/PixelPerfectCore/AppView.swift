@@ -20,26 +20,26 @@ public struct AppView<Content>: View where Content: View {
     }
 
     public var body: some View {
-        VStack(alignment: .leading, spacing: 0) {
-            ZStack(alignment: .bottomTrailing) {
-                Image(appInfo.id)
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 160)
-                    .clipped()
+        Button(action: { showApp = true }) {
+            VStack(alignment: .leading, spacing: 0) {
+                ZStack(alignment: .bottomTrailing) {
+                    Image(appInfo.id)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(height: 160)
+                        .clipped()
 
-                Link(destination: appInfo.url) {
-                    Image(systemName: "safari")
-                        .imageScale(.large)
-                        .padding(8)
-                        .background(appInfo.accentColor)
-                        .foregroundColor(.white)
-                        .cornerRadius(8)
-                        .padding(8)
+                    Link(destination: appInfo.url) {
+                        Image(systemName: "safari")
+                            .imageScale(.large)
+                            .padding(8)
+                            .background(appInfo.accentColor)
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
+                            .padding(8)
+                    }
                 }
-            }
 
-            Button(action: { showApp = true }) {
                 HStack {
                     VStack(alignment: .leading, spacing: 4) {
                         Text(appInfo.name)
@@ -55,8 +55,8 @@ public struct AppView<Content>: View where Content: View {
                 .padding()
                 .background(Color(.systemFill))
             }
-            .buttonStyle(PlainButtonStyle())
         }
+        .buttonStyle(PlainButtonStyle())
         .cornerRadius(16)
         .padding()
         .fullScreenCover(isPresented: $showApp) {
