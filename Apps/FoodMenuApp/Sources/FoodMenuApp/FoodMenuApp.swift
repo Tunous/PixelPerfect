@@ -23,9 +23,16 @@ public struct FoodMenuApp: View {
     public init() {}
 
     public var body: some View {
-        VStack {
-            Text("Pizza")
-            Text("25 items")
+        ZStack {
+            PizzaBackground()
+
+            VStack(spacing: 32) {
+                PizzaItem()
+                PizzaItem()
+                PizzaItem()
+                PizzaItem()
+                PizzaItem()
+            }
         }
     }
 }
@@ -33,5 +40,6 @@ public struct FoodMenuApp: View {
 struct FoodMenuApp_Previews: PreviewProvider {
     static var previews: some View {
         FoodMenuApp()
+            .accentColor(AppInfo.foodMenuApp.accentColor)
     }
 }
