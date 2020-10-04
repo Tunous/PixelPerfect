@@ -48,10 +48,10 @@
 		230E34F8250A349300404209 /* SnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTests.swift; sourceTree = "<group>"; };
 		230E34FA250A349300404209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2340339E2529DDCA009ED17D /* FoodMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenuApp.swift; sourceTree = "<group>"; };
-		234033EB2529E260009ED17D /* WateringPlantApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WateringPlantApp; path = Apps/WateringPlantApp; sourceTree = "<group>"; };
-		234034112529E46E009ED17D /* PixelPerfectCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PixelPerfectCore; path = Packages/PixelPerfectCore; sourceTree = "<group>"; };
-		234034222529E5B1009ED17D /* GoodreadsApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GoodreadsApp; path = Apps/GoodreadsApp; sourceTree = "<group>"; };
-		234034332529E6C7009ED17D /* SimpleWeatherApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SimpleWeatherApp; path = Apps/SimpleWeatherApp; sourceTree = "<group>"; };
+		234033EB2529E260009ED17D /* WateringPlantApp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WateringPlantApp; sourceTree = "<group>"; };
+		234034112529E46E009ED17D /* PixelPerfectCore */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PixelPerfectCore; sourceTree = "<group>"; };
+		234034222529E5B1009ED17D /* GoodreadsApp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GoodreadsApp; sourceTree = "<group>"; };
+		234034332529E6C7009ED17D /* SimpleWeatherApp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SimpleWeatherApp; sourceTree = "<group>"; };
 		23A6656624F3F98B00EA77EE /* AppPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPickerView.swift; sourceTree = "<group>"; };
 		23EE176924F2792D00D182D8 /* PixelPerfectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelPerfectApp.swift; sourceTree = "<group>"; };
 		23EE176B24F2792D00D182D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -133,12 +133,10 @@
 		23EE176324F2792D00D182D8 = {
 			isa = PBXGroup;
 			children = (
-				234034332529E6C7009ED17D /* SimpleWeatherApp */,
-				234034222529E5B1009ED17D /* GoodreadsApp */,
-				234034112529E46E009ED17D /* PixelPerfectCore */,
-				234033EB2529E260009ED17D /* WateringPlantApp */,
 				230E34F1250A2D9C00404209 /* README.md */,
 				23EE176824F2792D00D182D8 /* Shared */,
+				23F748BA252A351500900118 /* Apps */,
+				23F748BE252A356300900118 /* Packages */,
 				2340344D2529E88A009ED17D /* iOS */,
 				230E34F7250A349300404209 /* SnapshotTests */,
 				23EE177124F2792E00D182D8 /* Products */,
@@ -180,6 +178,24 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		23F748BA252A351500900118 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				234034332529E6C7009ED17D /* SimpleWeatherApp */,
+				234034222529E5B1009ED17D /* GoodreadsApp */,
+				234033EB2529E260009ED17D /* WateringPlantApp */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		23F748BE252A356300900118 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				234034112529E46E009ED17D /* PixelPerfectCore */,
+			);
+			path = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
