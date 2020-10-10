@@ -3,6 +3,7 @@ import SwiftUI
 struct FoodItemView: View {
 
     @State private var showDetails = false
+    @State private var count = 1
 
     var body: some View {
         PizzaItem {
@@ -42,6 +43,8 @@ struct FoodItemView: View {
                         .foregroundColor(.accentColor)
                 }
             }
+        } trailingContent: {
+            CountPicker(count: $count)
         }
         .onTapGesture {
             withAnimation {
