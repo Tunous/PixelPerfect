@@ -7,25 +7,31 @@
 
 import SwiftUI
 
-struct PizzaItem: View {
+struct PizzaItem<Content: View>: View {
+    private var content: Content
+
+    init(@ViewBuilder _ content: () -> Content) {
+        self.content = content()
+    }
+
     var body: some View {
-        ZStack(alignment: .trailing) {
+        ZStack {
             HStack {
-                VStack(alignment: .leading, spacing: 12) {
-                    Text("Pizza")
-                        .font(.title)
-                        .fontWeight(.bold)
-                    Text("25 items")
-                        .font(.footnote)
-                }
+                content
                 Spacer()
             }
-            .padding(.vertical, 28)
-            .padding(.horizontal, 64)
-            .background(Color(.systemBackground))
-            .cornerRadius(24)
-            .shadow(color: Color.black.opacity(0.1), radius: 4, x: 0, y: 8)
-            .padding(.horizontal, 24)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.vertical, 28)
+                .padding(.leading, 64)
+                .padding(.trailing, 32)
+                .background(Color(.systemBackground))
+                .cornerRadius(24)
+                .shadow(color: Color.black.opacity(0.1), radius: 4, x: 0, y: 8)
+                .padding(.horizontal, 24)
+
+            PlateView()
+                .frame(width: 64, height: 64)
+                .frame(maxWidth: .infinity, alignment: .leading)
 
             ZStack {
                 Circle()
@@ -33,8 +39,9 @@ struct PizzaItem: View {
                 Image(systemName: "chevron.right")
                     .foregroundColor(.accentColor)
             }
-                .frame(width: 48, height: 48)
-                .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 8)
+            .frame(width: 48, height: 48)
+            .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 8)
+            .frame(maxWidth: .infinity, alignment: .trailing)
         }
         .padding(.horizontal)
     }
@@ -42,7 +49,11 @@ struct PizzaItem: View {
 
 struct PizzaItem_Previews: PreviewProvider {
     static var previews: some View {
-        PizzaItem()
-            .previewLayout(.sizeThatFits)
+        PizzaItem {
+            Text("Pizza")
+                .font(.title)
+                .fontWeight(.bold)
+        }
+        .previewLayout(.sizeThatFits)
     }
 }

@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import FoodMenuApp
 
 @main
 struct PixelPerfectApp: App {
     var body: some Scene {
         WindowGroup {
-            AppPickerView()
+            AppPickerView().onAppear { registerFonts() }
         }
     }
 }

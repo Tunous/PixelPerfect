@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct PizzaBackground: View {
+
+    let progress: CGFloat
+
     var body: some View {
-        HStack(spacing: 0) {
-            Rectangle()
-                .foregroundColor(.accentColor)
-                .frame(maxWidth: 160)
-            Rectangle()
-                .foregroundColor(Color(.systemBackground))
+        GeometryReader { geometry in
+            HStack(spacing: 0) {
+                Rectangle()
+                    .foregroundColor(.accentColor)
+                    .frame(maxWidth: geometry.size.width * progress)
+            }
         }
         .ignoresSafeArea()
     }
@@ -22,6 +25,6 @@ struct PizzaBackground: View {
 
 struct PizzaBackground_Previews: PreviewProvider {
     static var previews: some View {
-        PizzaBackground()
+        PizzaBackground(progress: 1/3)
     }
 }

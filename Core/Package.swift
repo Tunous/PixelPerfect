@@ -15,10 +15,10 @@ let package = Package(
             name: "SimpleWeatherApp",
             targets: ["SimpleWeatherApp"]
         ),
-         .library(
-             name: "FoodMenuApp",
-             targets: ["FoodMenuApp"]
-         ),
+        .library(
+            name: "FoodMenuApp",
+            targets: ["FoodMenuApp"]
+        ),
         .library(
             name: "GoodreadsApp",
             targets: ["GoodreadsApp"]
@@ -41,12 +41,13 @@ let package = Package(
                 "PixelPerfectCore"
             ]
         ),
-         .target(
-             name: "FoodMenuApp",
-             dependencies: [
-                 "PixelPerfectCore"
-             ]
-         ),
+        .target(
+            name: "FoodMenuApp",
+            dependencies: [
+                "PixelPerfectCore"
+            ],
+            resources: [.process("Fonts")]
+        ),
         .target(
             name: "GoodreadsApp",
             dependencies: [
