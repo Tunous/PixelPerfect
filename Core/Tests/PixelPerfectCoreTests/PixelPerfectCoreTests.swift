@@ -1,12 +1,12 @@
 import XCTest
-@testable import WateringPlantApp
+@testable import PixelPerfectCore
 
-final class WateringPlantAppTests: XCTestCase {
+final class PixelPerfectCoreTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(WateringPlantApp().text, "Hello, World!")
+//        XCTAssertEqual(PixelPerfectCore().text, "Hello, World!")
     }
 
     static var allTests = [

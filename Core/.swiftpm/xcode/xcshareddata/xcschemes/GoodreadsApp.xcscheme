@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FoodMenuApp"
-               BuildableName = "FoodMenuApp"
-               BlueprintName = "FoodMenuApp"
+               BlueprintIdentifier = "GoodreadsApp"
+               BuildableName = "GoodreadsApp"
+               BlueprintName = "GoodreadsApp"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FoodMenuAppTests"
-               BuildableName = "FoodMenuAppTests"
-               BlueprintName = "FoodMenuAppTests"
-               ReferencedContainer = "container:">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -57,7 +47,7 @@
             BlueprintIdentifier = "23EE176F24F2792E00D182D8"
             BuildableName = "PixelPerfect.app"
             BlueprintName = "PixelPerfect (iOS)"
-            ReferencedContainer = "container:../../PixelPerfect.xcodeproj">
+            ReferencedContainer = "container:../PixelPerfect.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -70,9 +60,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FoodMenuApp"
-            BuildableName = "FoodMenuApp"
-            BlueprintName = "FoodMenuApp"
+            BlueprintIdentifier = "GoodreadsApp"
+            BuildableName = "GoodreadsApp"
+            BlueprintName = "GoodreadsApp"
             ReferencedContainer = "container:">
          </BuildableReference>
       </MacroExpansion>

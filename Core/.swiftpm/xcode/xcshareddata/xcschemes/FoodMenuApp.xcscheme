@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "PixelPerfectCore"
-               BuildableName = "PixelPerfectCore"
-               BlueprintName = "PixelPerfectCore"
+               BlueprintIdentifier = "FoodMenuApp"
+               BuildableName = "FoodMenuApp"
+               BlueprintName = "FoodMenuApp"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -50,9 +50,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "PixelPerfectCore"
-            BuildableName = "PixelPerfectCore"
-            BlueprintName = "PixelPerfectCore"
+            BlueprintIdentifier = "FoodMenuApp"
+            BuildableName = "FoodMenuApp"
+            BlueprintName = "FoodMenuApp"
             ReferencedContainer = "container:">
          </BuildableReference>
       </MacroExpansion>

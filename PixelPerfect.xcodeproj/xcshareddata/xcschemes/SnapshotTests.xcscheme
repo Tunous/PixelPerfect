@@ -51,15 +51,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "23EE176F24F2792E00D182D8"
-            BuildableName = "PixelPerfect.app"
-            BlueprintName = "PixelPerfect (iOS)"
-            ReferencedContainer = "container:PixelPerfect.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

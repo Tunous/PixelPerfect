@@ -1,12 +1,12 @@
 import XCTest
-@testable import SimpleWeatherApp
+@testable import WateringPlantApp
 
-final class SimpleWeatherAppTests: XCTestCase {
+final class WateringPlantAppTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SimpleWeatherApp().text, "Hello, World!")
+//        XCTAssertEqual(WateringPlantApp().text, "Hello, World!")
     }
 
     static var allTests = [
