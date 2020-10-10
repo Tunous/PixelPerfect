@@ -25,7 +25,7 @@ public struct FoodMenuApp: View {
     @State private var step = 1
 
     public var body: some View {
-        ZStack {
+        ZStack(alignment: .bottom) {
             PizzaBackground(progress: CGFloat(step) / 3)
 
             ScrollView {
@@ -45,6 +45,8 @@ public struct FoodMenuApp: View {
                     FoodCategoryView(categoryName: "Beverages", itemCount: 30)
                 }
             }
+
+            ShoppingCartView()
         }
         .onTapGesture {
             withAnimation {
@@ -54,6 +56,7 @@ public struct FoodMenuApp: View {
                 }
             }
         }
+        .ignoresSafeArea(.all, edges: .bottom)
     }
 }
 
