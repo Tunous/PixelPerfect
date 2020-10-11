@@ -2,6 +2,9 @@ import SwiftUI
 import PixelPerfectCore
 
 struct ShoppingCartView: View {
+
+    @Binding var isOpen: Bool
+
     var body: some View {
         VStack(spacing: 12) {
             HStack {
@@ -10,8 +13,10 @@ struct ShoppingCartView: View {
                     .fontWeight(.regular)
                 Spacer()
                 Image(systemName: "chevron.up")
+                    .rotationEffect(isOpen ? .zero : .degrees(180))
                     .foregroundColor(.accentColor)
             }
+            .onTapGesture { isOpen.toggle() }
 
             Spacer().frame(height: 24)
 
@@ -73,7 +78,7 @@ struct CartDetailView: View {
 
 struct ShoppingCartView_Previews: PreviewProvider {
     static var previews: some View {
-        ShoppingCartView()
+        ShoppingCartView(isOpen: .constant(true))
             .accentColor(AppInfo.foodMenuApp.accentColor)
             .onAppear { registerFonts() }
             .background(Color.black)

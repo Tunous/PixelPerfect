@@ -22,7 +22,12 @@ public extension AppInfo {
 public struct FoodMenuApp: View {
     public init() {}
 
-    @State private var step = 1
+    @State private var step = 3 {
+        didSet {
+            bottomSheetShown = true
+        }
+    }
+    @State private var bottomSheetShown = false
 
     public var body: some View {
         ZStack {
@@ -77,10 +82,12 @@ public struct FoodMenuApp: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
 
             if step == 3 {
-                ShoppingCartView()
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
-                    .zIndex(1)
-                    .transition(.move(edge: .bottom))
+                BottomSheetView(isOpen: $bottomSheetShown, showIndicator: false) {
+                    ShoppingCartView(isOpen: $bottomSheetShown)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
+                .zIndex(1)
+                .transition(.move(edge: .bottom))
             }
         }
         .onTapGesture(perform: goForward)
