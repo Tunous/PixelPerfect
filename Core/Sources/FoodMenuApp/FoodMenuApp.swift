@@ -29,69 +29,44 @@ public struct FoodMenuApp: View {
     }
     @State private var bottomSheetShown = false
 
+    @State private var currentPage = 1
+
     public var body: some View {
-        ZStack {
-            PizzaBackground(progress: CGFloat(step) / 3)
-
-            GeometryReader { geometry in
+        FoodMenuScreen(currentPage: $currentPage, pageCount: 3) {
+            switch currentPage {
+            case 1:
                 ScrollView {
-                    ScrollViewReader { proxy in
-                        VStack(alignment: .leading, spacing: 32) {
-                            Spacer(minLength: 12)
-                            if step > 1 {
-                                Text(step == 3 ? "Shopping cart" : "Salads menu")
-                                    .font(.largeTitleUltra)
-                                    .foregroundColor(.white)
-                                    .padding([.top, .horizontal], 24)
-                                    .frame(maxWidth: geometry.size.width * 2/3, alignment: .leading)
-                                    .animation(.none)
+                    Spacer(minLength: 48)
+                    FoodCategoryView(categoryName: "Pizza", itemCount: 25)
+                        .onTapGesture(perform: {
+                            withAnimation {
+                                currentPage += 1
                             }
-                            FoodCategoryView(categoryName: "Pizza", itemCount: 25)
-                            FoodItemView()
-                            FoodCategoryView(categoryName: "Salads", itemCount: 30)
-                            FoodCategoryView(categoryName: "Desserts", itemCount: 30)
-                            FoodCategoryView(categoryName: "Pasta", itemCount: 44)
-                            FoodCategoryView(categoryName: "Beverages", itemCount: 30)
-                        }
-                    }
+                        })
+                    FoodCategoryView(categoryName: "Salads", itemCount: 30)
                 }
+            case 2:
+                ScrollView {
+                    Spacer(minLength: 48)
+                    FoodItemView()
+                    FoodItemView()
+                }
+            case 3:
+                ScrollView {
+                    Spacer(minLength: 48)
+                    Text( "Shopping cart")
+                        .font(.largeTitleUltra)
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 24)
+                        .animation(.none)
+                    FoodItemView()
+                    FoodItemView()
+                }
+            default:
+                fatalError()
             }
 
-            HStack {
-                if step > 1 {
-                    Button(action: goBack) {
-                        Image(systemName: "arrow.left")
-                            .imageScale(.large)
-                            .font(Font.body.bold())
-                            .frame(width: 24, height: 24)
-                    }
-                    .accentColor(.white)
-                }
-
-                Spacer()
-
-                Button(action: goToCart) {
-                    Image(systemName: "cart")
-                        .imageScale(.large)
-                        .font(Font.body.bold())
-                        .frame(width: 24, height: 24)
-                }
-                .accentColor(step == 3 ? .white : AppInfo.foodMenuApp.accentColor)
-            }
-            .padding(.horizontal, 32)
-            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-
-            if step == 3 {
-                BottomSheetView(isOpen: $bottomSheetShown, showIndicator: false) {
-                    ShoppingCartView(isOpen: $bottomSheetShown)
-                }
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
-                .zIndex(1)
-                .transition(.move(edge: .bottom))
-            }
         }
-        .onTapGesture(perform: goForward)
-        .ignoresSafeArea(.all, edges: .bottom)
     }
 
     private func goToCart() {
