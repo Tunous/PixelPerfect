@@ -22,25 +22,18 @@ public extension AppInfo {
 public struct FoodMenuApp: View {
     public init() {}
 
-    @State private var step = 3 {
-        didSet {
-            bottomSheetShown = true
-        }
-    }
-    @State private var bottomSheetShown = false
-
-    @State private var currentPage = 1
+    @State private var currentPage = Page(number: 1)
 
     public var body: some View {
         FoodMenuScreen(currentPage: $currentPage, pageCount: 3) {
-            switch currentPage {
+            switch currentPage.number {
             case 1:
                 ScrollView {
                     Spacer(minLength: 48)
                     FoodCategoryView(categoryName: "Pizza", itemCount: 25)
                         .onTapGesture(perform: {
                             withAnimation {
-                                currentPage += 1
+                                currentPage.number += 1
                             }
                         })
                     FoodCategoryView(categoryName: "Salads", itemCount: 30)
@@ -65,25 +58,6 @@ public struct FoodMenuApp: View {
             default:
                 fatalError()
             }
-
-        }
-    }
-
-    private func goToCart() {
-        withAnimation { step = 3 }
-    }
-
-    private func goBack() {
-        guard step > 1 else { return }
-        withAnimation {
-            step -= 1
-        }
-    }
-
-    private func goForward() {
-        guard step < 3 else { return }
-        withAnimation {
-            step += 1
         }
     }
 }
