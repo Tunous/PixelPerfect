@@ -28,33 +28,15 @@ public struct FoodMenuApp: View {
         FoodMenuScreen(currentPage: $currentPage, pageCount: 3) {
             switch currentPage.number {
             case 1:
-                ScrollView {
-                    Spacer(minLength: 48)
-                    FoodCategoryView(categoryName: "Pizza", itemCount: 25)
-                        .onTapGesture(perform: {
-                            withAnimation {
-                                currentPage.number += 1
-                            }
-                        })
-                    FoodCategoryView(categoryName: "Salads", itemCount: 30)
-                }
+                FoodCategoriesPage(navigateToCategory: {
+                    withAnimation {
+                        currentPage.number += 1
+                    }
+                })
             case 2:
-                ScrollView {
-                    Spacer(minLength: 48)
-                    FoodItemView()
-                    FoodItemView()
-                }
+                MealSelectionPage()
             case 3:
-                ScrollView {
-                    Spacer(minLength: 48)
-                    Text( "Shopping cart")
-                        .font(.largeTitleUltra)
-                        .foregroundColor(.white)
-                        .padding(.horizontal, 24)
-                        .animation(.none)
-                    FoodItemView()
-                    FoodItemView()
-                }
+                ShoppingCartPage()
             default:
                 fatalError()
             }

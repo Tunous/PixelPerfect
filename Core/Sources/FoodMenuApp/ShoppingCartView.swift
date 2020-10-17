@@ -1,6 +1,13 @@
 import SwiftUI
 import PixelPerfectCore
 
+struct ScaleButtonStyle: ButtonStyle {
+    func makeBody(configuration: Self.Configuration) -> some View {
+        configuration.label
+            .scaleEffect(configuration.isPressed ? 0.9 : 1)
+    }
+}
+
 struct ShoppingCartView: View {
 
     @Binding var isOpen: Bool
@@ -27,20 +34,24 @@ struct ShoppingCartView: View {
 
             Spacer().frame(height: 12)
 
-            HStack {
-                Image(systemName: "trash")
-                    .imageScale(.small)
-                    .frame(width: 24, height: 24)
-                    .padding(8)
-                    .background(Circle().stroke())
-                    .foregroundColor(.secondary)
+            HStack(spacing: 24) {
+                Button(action: {}) {
+                    Image(systemName: "trash")
+                        .imageScale(.small)
+                        .frame(width: 24, height: 24)
+                        .padding(8)
+                        .background(Circle().stroke())
+                        .foregroundColor(.secondary)
+                }
 
-                Image(systemName: "bookmark")
-                    .imageScale(.small)
-                    .frame(width: 24, height: 24)
-                    .padding(8)
-                    .background(Circle().stroke())
-                    .foregroundColor(.secondary)
+                Button(action: {}) {
+                    Image(systemName: "bookmark")
+                        .imageScale(.small)
+                        .frame(width: 24, height: 24)
+                        .padding(8)
+                        .background(Circle().stroke())
+                        .foregroundColor(.secondary)
+                }
 
                 Spacer()
 
@@ -57,6 +68,7 @@ struct ShoppingCartView: View {
                 }
             }
         }
+        .buttonStyle(ScaleButtonStyle())
         .padding(24)
         .background(Color(.systemBackground))
         .cornerRadius(40, corners: [.topLeft, .topRight])

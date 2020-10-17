@@ -47,18 +47,21 @@ struct PizzaItem<Content, TrailingContent>: View where Content: View, TrailingCo
                 $0.padding(.trailing, 24)
             }
             
-            PlateView()
+            PlateView(style: PlateView.Style.allCases.randomElement()!)
                 .frame(width: 64, height: 64)
-                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.top, 28)
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
 
             if hasTrailingContent {
                 trailingContent
                     .frame(width: 48, height: 48)
+                    .padding(.bottom, 28)
                     .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 8)
-                    .frame(maxWidth: .infinity, alignment: .trailing)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
             }
         }
         .padding(.horizontal)
+        .fixedSize(horizontal: false, vertical: true)
     }
 }
 
